@@ -39,9 +39,9 @@ def extract_episode_data():
         print("Fehler beim Laden des Feeds!")
         return
 
-    # XML parsen (wir nutzen BeautifulSoup wegen der oft unsauberen iTunes-Namespaces im XML)
-    soup = BeautifulSoup(response.content, "html.parser")
-    items = soup.find_all("item")
+    # XML sauber mit dem integrierten ElementTree parsen (liest CDATA perfekt aus)
+    root = ET.fromstring(response.content)
+    items = root.findall(".//item")
 
     episodes = []
     all_valid_ids = set()
@@ -49,9 +49,14 @@ def extract_episode_data():
     print(f"Verarbeite {len(items)} gefundene Einträge...")
 
     for item in items:
-        title_text = item.title.text if item.title else ""
-        url = item.link.text if item.link else ""
-        description = item.description.text if item.description else ""
+        title_node = item.find("title")
+        title_text = title_node.text if title_node is not None else ""
+
+        link_node = item.find("link")
+        url = link_node.text if link_node is not None else ""
+
+        desc_node = item.find("description")
+        description = desc_node.text if desc_node is not None else ""
 
         # 1. Folgen-Nummer (ID) aus dem Titel extrahieren
         # Sucht nach der ersten Zahl im Titel (z.B. "709 - Der Grabstichel...")
