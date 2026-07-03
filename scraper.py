@@ -39,7 +39,12 @@ def extract_episode_data():
         print("Fehler beim Laden des Feeds!")
         return
 
-    # XML sauber mit dem integrierten ElementTree parsen (liest CDATA perfekt aus)
+    # XML-Namespaces definieren, damit wir an die echten Shownotes (content:encoded) herankommen
+    namespaces = {
+        "content": "http://purl.org/rss/1.0/modules/content/",
+        "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd"
+    }
+
     root = ET.fromstring(response.content)
     items = root.findall(".//item")
 
@@ -52,22 +57,28 @@ def extract_episode_data():
         title_node = item.find("title")
         title_text = title_node.text if title_node is not None else ""
 
-        link_node = item.find("link")
-        url = link_node.text if link_node is not None else ""
+        url_node = item.find("link")
+        url = url_node.text if url_node is not None else ""
 
+        # Kurz-Beschreibung auslesen
         desc_node = item.find("description")
         description = desc_node.text if desc_node is not None else ""
 
+        # DIE RETTUNG: Die vollen Shownotes inklusive aller Folgen-Referenzen auslesen!
+        content_node = item.find("content:encoded", namespaces)
+        content_text = content_node.text if content_node is not None else ""
+
+        # Beide Texte kombinieren für die lückenlose Textsuche
+        full_shownotes = description + " " + content_text
+
         # 1. Folgen-Nummer (ID) aus dem Titel extrahieren
-        # Sucht nach der ersten Zahl im Titel (z.B. "709 - Der Grabstichel...")
         id_match = re.search(r"\d+", title_text)
         if not id_match:
-            continue  # Keine Nummer gefunden? Wahrscheinlich ein Trailer, überspringen.
+            continue
 
         ep_id = int(id_match.group())
         all_valid_ids.add(ep_id)
 
-        # Titel sauber bereinigen (Präfixe wie "Folge 709:" wegschneiden, falls vorhanden)
         clean_title = re.sub(
             r"^(Sternengeschichten\s+)?(Folge\s+)?\d+[\s:\-–]+",
             "",
@@ -75,20 +86,26 @@ def extract_episode_data():
             flags=re.IGNORECASE,
         ).strip()
 
-        # 2. Automatische Tags generieren anhand von Schlüsselwörtern im Titel/Beschreibung
+        # 2. Automatische Tags generieren mit Priorisierung
         tags = set()
-        full_text_lower = (clean_title + " " + description).lower()
+        full_text_lower = (clean_title + " " + full_shownotes).lower()
         for keyword, tag_name in TAG_MAPPING.items():
             if keyword in full_text_lower:
                 tags.add(tag_name)
 
+        # HIER FIXEN WIR DAS PRIORITÄTS-PROBLEM:
+        # Wenn "Galaxien" oder "Kosmologie" im Text vorkommen, ist das viel spezifischer
+        # als das allgegenwärtige Wort "Sterne". Wir bereinigen die Tags:
+        if "Galaxien" in tags or "Kosmologie" in tags or "Planeten" in tags:
+            if "Sterne" in tags and len(tags) > 1:
+                tags.remove("Sterne") # Entfernt den "Sterne"-Überschuss bei spezifischen Themen
+
         if not tags:
             tags.add("Sonstige")
 
-        # 3. Referenzen auf andere Folgen im Beschreibungstext finden
-        # Sucht nach Mustern wie "Folge 45" oder "Folge 123"
-        ref_matches = re.findall(r"Folge\s+(\d+)", description, re.IGNORECASE)
-        # In Integers umwandeln
+        # 3. Referenzen aus den vollen Shownotes extrahieren
+        # Sucht flexibel nach "Folge X" oder "Folgen X"
+        ref_matches = re.findall(r"Folge(?:n)?\s+(\d+)", full_shownotes, re.IGNORECASE)
         references = list(set([int(ref) for ref in ref_matches]))
 
         episodes.append(
@@ -97,28 +114,21 @@ def extract_episode_data():
                 "title": clean_title,
                 "url": url,
                 "tags": list(tags),
-                "raw_references": references,  # Filtern wir im nächsten Schritt
+                "raw_references": references,
             }
         )
 
-    # Bereinigung: Nur Referenzen behalten, deren Ziel-ID es im Podcast auch wirklich gibt
-    # (Verhindert, dass Tippfehler in den Shownotes den Graphen crashen)
+    # Bereinigung der Referenzen
     for ep in episodes:
         ep["references"] = [
-            ref for ref in ep["raw_references"] if ref in all_valid_ids
+            ref for ref in ep["raw_references"] if ref in all_valid_ids and ref != ep["id"]
         ]
-        del ep["raw_references"]  # Temporäres Feld löschen
+        del ep["raw_references"]
 
-    # Nach ID aufsteigend sortieren
     episodes.sort(key=lambda x: x["id"])
 
-    # In JSON-Datei schreiben
     output_data = {"episodes": episodes}
     with open("episodes.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("Erfolgreich! 'episodes.json' wurde mit allen Daten befüllt.")
-
-
-if __name__ == "__main__":
-    extract_episode_data()
+    print("Erfolgreich! 'episodes.json' wurde mit echten Referenzen aktualisiert.")
