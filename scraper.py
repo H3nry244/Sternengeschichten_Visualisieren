@@ -40,7 +40,7 @@ def extract_episode_data():
         return
 
     # XML parsen (wir nutzen BeautifulSoup wegen der oft unsauberen iTunes-Namespaces im XML)
-    soup = BeautifulSoup(response.content, features="xml")
+    soup = BeautifulSoup(response.content, "html.parser")
     items = soup.find_all("item")
 
     episodes = []
