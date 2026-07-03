@@ -1,0 +1,46 @@
+{
+  "episodes": [
+    {
+      "id": 709,
+      "title": "Der Grabstichel und der heimatlose Quasar",
+      "url": "https://sternengeschichten.podigee.io/709-sternengeschichten-folge-709-der-grabstichel-und-der-heimatlose-quasar",
+      "tags": ["Galaxien", "Kosmologie"],
+      "references": [71, 520]
+    },
+    {
+      "id": 71,
+      "title": "Quasare, BL-Lac-Objekte und aktive Galaxienkerne",
+      "url": "https://sternengeschichten.podigee.io/71-sternengeschichten-folge-71-quasare-bl-lac-objekte-und-aktive-galaxienkerne",
+      "tags": ["Galaxien"],
+      "references": []
+    },
+    {
+      "id": 520,
+      "title": "Wie kommt das Wasser auf die Erde?",
+      "url": "https://sternengeschichten.podigee.io/520-wie-kommt-das-wasser-auf-die-erde",
+      "tags": ["Planeten", "Sonnensystem"],
+      "references": []
+    },
+    {
+      "id": 600,
+      "title": "Die Entstehung von Sternen",
+      "url": "https://sternengeschichten.podigee.io/600-die-entstehung-von-sternen",
+      "tags": ["Sterne"],
+      "references": [520]
+    },
+    {
+      "id": 650,
+      "title": "Dunkle Energie und das Ende des Universums",
+      "url": "https://sternengeschichten.podigee.io/650-dunkle-energie",
+      "tags": ["Kosmologie"],
+      "references": [709]
+    },
+    {
+      "id": 6250,
+      "title": "Dunkle Energie und das Ende des Universums",
+      "url": "https://sternengeschichten.podigee.io/650-dunkle-energie",
+      "tags": ["Kosmologie"],
+      "references": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sternengeschichten - Kosmisches Netzwerk</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Einbindung der 3D-Graph Bibliothek -->
+    <script src="https://unpkg.com/3d-force-graph"></script>
+</head>
+<body>
+
+    <!-- Sicherheits-Overlay (wird via JS ausgeblendet, wenn alles läuft) -->
+    <div id="error-overlay">
+        <div class="error-box">
+            <h2>Kosmische Blockade!</h2>
+            <p>Der Browser blockiert das Laden der <code>episodes.json</code> aus Sicherheitsgründen (CORS-Richtlinie), weil die Seite direkt als Datei geöffnet wurde.</p>
+            <p><strong>Lösung:</strong> Starte einen lokalen Webserver! In VS Code einfach unten rechts auf <strong>"Go Live"</strong> (Live Server Extension) klicken oder im Terminal im Projektordner folgenden Befehl eingeben:</p>
+            <p><code>python -m http.server</code></p>
+        </div>
+    </div>
+
+    <!-- Steuerungszentrale -->
+    <div id="ui-container">
+        <h1>Sternengeschichten</h1>
+        <p class="subtitle">Interaktives 3D-Episoden-Netzwerk</p>
+        
+        <div class="controls">
+            <label for="category-filter" style="font-size: 0.85rem; color: #aaa; display:block; margin-bottom:8px;">Themen-Fokus:</label>
+            <select id="category-filter">
+                <option value="all">Gesamtes Universum</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Der eigentliche 3D-Raum -->
+    <div id="3d-graph"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

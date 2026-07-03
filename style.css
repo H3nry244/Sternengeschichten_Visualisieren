@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #020208;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    color: #ffffff;
+}
+
+/* WICHTIG: Erzwingt, dass der 3D-Raum den gesamten Bildschirm ausfüllt */
+#3d-graph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+#ui-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    background: rgba(10, 15, 30, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    width: 260px;
+}
+
+h1 {
+    margin: 0 0 5px 0;
+    font-size: 1.35rem;
+    background: linear-gradient(45deg, #05d9e8, #ff2a6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    margin: 0 0 20px 0;
+    font-size: 0.8rem;
+    color: #778;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    background: #090d16;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Fehler-Overlay bei CORS/Lokal-Problem */
+#error-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(5, 5, 15, 0.95);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.error-box {
+    background: #111625;
+    border: 2px solid #ff2a6d;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(255, 42, 109, 0.3);
+}
+
+.error-box h2 { color: #ff2a6d; margin-top: 0; }
+.error-box code { background: #000; padding: 4px 8px; border-radius: 4px; color: #05d9e8; }
+
+/* Tooltips */
+.graph-tooltip {
+    background: rgba(5, 5, 15, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    max-width: 280px;
+}
+.tooltip-title { font-weight: 600; font-size: 1rem; margin-bottom: 6px; }
+.tooltip-tags { font-size: 0.8em; display: flex; flex-wrap: wrap; gap: 4px; }
+.tooltip-tag-badge { background: rgba(255, 255, 255, 0.1); padding: 2px 6px; border-radius: 4px; }
