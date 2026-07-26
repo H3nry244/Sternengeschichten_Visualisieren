@@ -7,13 +7,7 @@ let currentFilter = 'all';
 let showTopicsMode = false;
 let Graph;
 
-/* ======================================================== */
-/* TEST-CODE START: Globaler Test-Threshold                */
-/* ======================================================== */
 let currentThreshold = 0.75;
-/* ======================================================== */
-/* TEST-CODE END                                            */
-/* ======================================================== */
 
 // Kosmische Neon-Farbpalette
 const spacePalette = [
@@ -166,15 +160,9 @@ function initSearchAndToggle() {
     const modeToggle = document.getElementById('modeToggle');
     const toggleLabel = document.getElementById('toggleLabel');
 
-    /* ======================================================== */
-    /* TEST-CODE START: Slider DOM Elemente                     */
-    /* ======================================================== */
     const thresholdControl = document.getElementById('thresholdControl');
     const thresholdSlider = document.getElementById('thresholdSlider');
     const thresholdVal = document.getElementById('thresholdVal');
-    /* ======================================================== */
-    /* TEST-CODE END                                            */
-    /* ======================================================== */
 
     if (modeToggle) {
         modeToggle.addEventListener('change', (e) => {
@@ -185,15 +173,9 @@ function initSearchAndToggle() {
                 toggleLabel.style.color = showTopicsMode ? "#00fe9c" : "#ffffff";
             }
 
-            /* ======================================================== */
-            /* TEST-CODE START: Ein-/Ausblenden der Test-Steuerung      */
-            /* ======================================================== */
             if (thresholdControl) {
                 thresholdControl.style.display = showTopicsMode ? "block" : "none";
             }
-            /* ======================================================== */
-            /* TEST-CODE END                                            */
-            /* ======================================================== */
 
             // Neu berechnen und Graph aktualisieren
             graphData.links = buildDirectLinks(rawEpisodes, showTopicsMode);
@@ -205,9 +187,6 @@ function initSearchAndToggle() {
         });
     }
 
-    /* ======================================================== */
-    /* TEST-CODE START: Event Listener für Live-Threshold      */
-    /* ======================================================== */
     if (thresholdSlider) {
         thresholdSlider.addEventListener('input', (e) => {
             currentThreshold = parseFloat(e.target.value);
@@ -221,9 +200,6 @@ function initSearchAndToggle() {
             Graph.d3ReheatSimulation();
         });
     }
-    /* ======================================================== */
-    /* TEST-CODE END                                            */
-    /* ======================================================== */
 
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
