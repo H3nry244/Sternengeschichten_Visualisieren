@@ -7,6 +7,14 @@ let currentFilter = 'all';
 let showTopicsMode = false;
 let Graph;
 
+/* ======================================================== */
+/* TEST-CODE START: Globaler Test-Threshold                */
+/* ======================================================== */
+let currentThreshold = 0.65;
+/* ======================================================== */
+/* TEST-CODE END                                            */
+/* ======================================================== */
+
 // Kosmische Neon-Farbpalette
 const spacePalette = [
     '255, 42, 109',  // Neon-Pink
@@ -79,7 +87,7 @@ fetch('episodes.json')
         console.error("Fehler beim Laden:", error);
     });
 
-// Hilfsfunktion: NUR direkte JSON-Referenzen auflösen
+// Hilfsfunktion: JSON-Referenzen auflösen
 function buildDirectLinks(episodes, useTopics) {
     const links = [];
     const linkSet = new Set();
@@ -98,29 +106,36 @@ function buildDirectLinks(episodes, useTopics) {
         const ep = episodes.find(e => e._graphNodeId === sourceNode.id);
         if (!ep) return;
 
-        // Exakt das JSON-Array wählen
         const rawReferences = useTopics ? ep.topic_references : ep.references;
-        const targetIds = Array.isArray(rawReferences) ? rawReferences : [];
+        const targetList = Array.isArray(rawReferences) ? rawReferences : [];
 
-        targetIds.forEach(refNum => {
-            const refKey = String(refNum).trim();
-            const targetNodes = epNumToNodes[refKey];
+        targetList.forEach(item => {
+            /* ======================================================== */
+            /* TEST-LOGIK: Kompatibel mit ID-Strings UND Score-Objekten */
+            /* ======================================================== */
+            const isObject = typeof item === 'object' && item !== null;
+            const refNum = isObject ? item.id : item;
+            const score = isObject ? (item.score ?? 1.0) : 1.0;
 
-            // Nur verknüpfen, wenn die Ziel-Folge auch existiert
-            if (targetNodes && targetNodes.length > 0) {
-                targetNodes.forEach(targetNode => {
-                    if (sourceNode.id !== targetNode.id) {
-                        // Duplikate (A -> B und B -> A) filtern
-                        const linkKey = [sourceNode.id, targetNode.id].sort().join('---');
-                        if (!linkSet.has(linkKey)) {
-                            linkSet.add(linkKey);
-                            links.push({
-                                source: sourceNode.id,
-                                target: targetNode.id
-                            });
+            // Verknüpfe nur, wenn im normalen Modus ODER wenn der Score den Test-Threshold erreicht
+            if (!useTopics || score >= currentThreshold) {
+                const refKey = String(refNum).trim();
+                const targetNodes = epNumToNodes[refKey];
+
+                if (targetNodes && targetNodes.length > 0) {
+                    targetNodes.forEach(targetNode => {
+                        if (sourceNode.id !== targetNode.id) {
+                            const linkKey = [sourceNode.id, targetNode.id].sort().join('---');
+                            if (!linkSet.has(linkKey)) {
+                                linkSet.add(linkKey);
+                                links.push({
+                                    source: sourceNode.id,
+                                    target: targetNode.id
+                                });
+                            }
                         }
-                    }
-                });
+                    });
+                }
             }
         });
     });
@@ -151,6 +166,16 @@ function initSearchAndToggle() {
     const modeToggle = document.getElementById('modeToggle');
     const toggleLabel = document.getElementById('toggleLabel');
 
+    /* ======================================================== */
+    /* TEST-CODE START: Slider DOM Elemente                     */
+    /* ======================================================== */
+    const thresholdControl = document.getElementById('thresholdControl');
+    const thresholdSlider = document.getElementById('thresholdSlider');
+    const thresholdVal = document.getElementById('thresholdVal');
+    /* ======================================================== */
+    /* TEST-CODE END                                            */
+    /* ======================================================== */
+
     if (modeToggle) {
         modeToggle.addEventListener('change', (e) => {
             showTopicsMode = e.target.checked;
@@ -159,6 +184,16 @@ function initSearchAndToggle() {
                 toggleLabel.textContent = showTopicsMode ? "Themen-Referenzen (topic_references)" : "Direkte Referenzen (references)";
                 toggleLabel.style.color = showTopicsMode ? "#00fe9c" : "#ffffff";
             }
+
+            /* ======================================================== */
+            /* TEST-CODE START: Ein-/Ausblenden der Test-Steuerung      */
+            /* ======================================================== */
+            if (thresholdControl) {
+                thresholdControl.style.display = showTopicsMode ? "block" : "none";
+            }
+            /* ======================================================== */
+            /* TEST-CODE END                                            */
+            /* ======================================================== */
 
             // Neu berechnen und Graph aktualisieren
             graphData.links = buildDirectLinks(rawEpisodes, showTopicsMode);
@@ -169,6 +204,26 @@ function initSearchAndToggle() {
             Graph.d3ReheatSimulation();
         });
     }
+
+    /* ======================================================== */
+    /* TEST-CODE START: Event Listener für Live-Threshold      */
+    /* ======================================================== */
+    if (thresholdSlider) {
+        thresholdSlider.addEventListener('input', (e) => {
+            currentThreshold = parseFloat(e.target.value);
+            if (thresholdVal) thresholdVal.textContent = currentThreshold.toFixed(2);
+
+            graphData.links = buildDirectLinks(rawEpisodes, true);
+            Graph.graphData({
+                nodes: graphData.nodes,
+                links: graphData.links
+            });
+            Graph.d3ReheatSimulation();
+        });
+    }
+    /* ======================================================== */
+    /* TEST-CODE END                                            */
+    /* ======================================================== */
 
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
@@ -266,7 +321,7 @@ function initGraph() {
             // Zoomt sanft über 1.2 Sekunden so, dass alle Nodes sichtbar sind
             Graph.zoomToFit(1200, 80);
         });
-}
+    }
 
     Graph.d3Force('cluster', createClusterForce());
     Graph.d3Force('charge').strength(-30);
