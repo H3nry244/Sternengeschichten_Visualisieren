@@ -9,7 +9,29 @@
     <script src="https://unpkg.com/3d-force-graph"></script>
 </head>
 <body>
-    <!-- Steuerungszentrale -->
+
+    <!-- Lade- / Fehler-Overlay -->
+    <div id="error-overlay" style="position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background: #020208; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1000; font-family: sans-serif;">
+        <h2 style="margin-bottom: 10px; color: #00fe9c;">Universum wird geladen...</h2>
+        <p style="color: #888; font-size: 14px;">Episoden-Daten und Netzwerke werden synchronisiert.</p>
+    </div>
+
+    <!-- Obere Suchleiste -->
+    <div id="search-container" style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 100;">
+        <input type="text" id="searchInput" placeholder="Folge oder Thema suchen (z.B. 20 oder Andromeda)..." 
+               style="padding: 10px 18px; width: 340px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.2); background: rgba(15, 15, 25, 0.85); color: white; font-size: 14px; backdrop-filter: blur(8px); outline: none; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+    </div>
+
+    <!-- Umschalter unten links (Netzwerk-Modus) -->
+    <div id="toggle-container" style="position: absolute; bottom: 20px; left: 20px; z-index: 100; background: rgba(15, 15, 25, 0.85); padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); color: white; font-family: sans-serif; font-size: 13px; backdrop-filter: blur(8px); box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+        <div style="margin-bottom: 8px; font-weight: bold; color: #aaa; text-transform: uppercase; font-size: 11px; letter-spacing: 1px;">Verbindungs-Modus</div>
+        <label style="cursor: pointer; display: flex; align-items: center; gap: 10px; user-select: none;">
+            <input type="checkbox" id="modeToggle" style="cursor: pointer; accent-color: #00fe9c; width: 16px; height: 16px;">
+            <span>Themenverwandtschaft anzeigen</span>
+        </label>
+    </div>
+
+    <!-- Steuerungszentrale (Kategorie-Filter) -->
     <div id="ui-container">
         <h1>Sternengeschichten 3D-Map</h1>
         
@@ -21,7 +43,7 @@
         </div>
     </div>
 
-    <!-- Der eigentliche 3D-Raum -->
+    <!-- Der 3D-Canvas -->
     <div id="3d-graph"></div>
 
     <script src="script.js"></script>
