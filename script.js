@@ -7,13 +7,13 @@ let currentFilter = 'all';
 let showTopicsMode = false;
 let Graph;
 
-// Eine leuchtende, kosmische Neon-Farbpalette (RGB für dynamische Opazität)
+// Kosmische Neon-Farbpalette
 const spacePalette = [
-    '255, 42, 109',  // Neon-Pink (z.B. Galaxien)
-    '5, 217, 232',   // Laser-Cyan (z.B. Planeten)
-    '0, 254, 156',   // Aurora-Grün (z.B. Sterne)
+    '255, 42, 109',  // Neon-Pink
+    '5, 217, 232',   // Laser-Cyan
+    '0, 254, 156',   // Aurora-Grün
     '255, 183, 3',   // Sonnen-Gelb
-    '155, 93, 229',  // Kosmisches Violett (z.B. Kosmologie)
+    '155, 93, 229',  // Kosmisches Violett
     '255, 87, 34',   // Mars-Orange
     '224, 102, 255', // Nebel-Orchidee
     '58, 134, 255'   // Hyperraum-Blau
@@ -31,18 +31,16 @@ fetch('episodes.json')
 
         rawEpisodes = data.episodes;
         
-        // Alle einzigartigen Tags extrahieren
+        // Alle Tags sammeln für Farb-Cluster
         rawEpisodes.forEach(ep => {
             if (ep.tags) ep.tags.forEach(tag => allTags.add(tag));
         });
 
-        // Tags sortieren, Farben und feste Koordinaten für die Galaxien-Haufen zuweisen
         const tagsArray = Array.from(allTags).sort();
         const radius = 140;
 
         tagsArray.forEach((tag, index) => {
             tagColors[tag] = spacePalette[index % spacePalette.length];
-            
             const angle = (index / tagsArray.length) * 2 * Math.PI;
             clusterCenters[tag] = {
                 x: Math.cos(angle) * radius,
@@ -53,12 +51,15 @@ fetch('episodes.json')
         tagColors['Sonstige'] = '255, 255, 255';
         clusterCenters['Sonstige'] = { x: 0, y: 0, z: 0 };
 
-        // Nodes aufbauen
-        rawEpisodes.forEach(ep => {
+        // Nodes mit eindeutiger interner ID erstellen
+        rawEpisodes.forEach((ep, idx) => {
             const primaryTag = (ep.tags && ep.tags.length > 0) ? ep.tags[0] : 'Sonstige';
-            
+            const uniqueNodeId = `node_${idx}_ep_${ep.id}`;
+            ep._graphNodeId = uniqueNodeId;
+
             graphData.nodes.push({
-                id: ep.id,
+                id: uniqueNodeId,
+                episodeNumber: ep.id,
                 title: ep.title,
                 url: ep.url,
                 tags: ep.tags || [],
@@ -67,34 +68,61 @@ fetch('episodes.json')
             });
         });
 
-        // Initiales Erstellen der Kanten (Standard: Direkte Erwähnungen)
-        graphData.links = buildLinks(rawEpisodes, false);
+        // Verknüpfungen STRIKT aus dem JSON aufbauen
+        graphData.links = buildDirectLinks(rawEpisodes, false);
 
         populateFilter(tagsArray);
         initGraph();
         initSearchAndToggle();
     })
     .catch(error => {
-        console.error("Fehler beim Initialisieren des Universums:", error);
+        console.error("Fehler beim Laden:", error);
     });
 
-// Hilfsfunktion: Kanten dynamisch berechnen
-function buildLinks(episodes, useTopics) {
-    const episodeIds = new Set(episodes.map(e => e.id));
+// Hilfsfunktion: NUR direkte JSON-Referenzen auflösen
+function buildDirectLinks(episodes, useTopics) {
     const links = [];
+    const linkSet = new Set();
 
-    episodes.forEach(ep => {
-        const targetArray = useTopics ? ep.topic_references : ep.references;
-        if (targetArray) {
-            targetArray.forEach(refId => {
-                if (episodeIds.has(refId)) {
-                    links.push({
-                        source: ep.id,
-                        target: refId
-                    });
-                }
-            });
+    // Map zur schnellen Zuordnung: Episoden-Nummer (als String) -> Node-Objekte
+    const epNumToNodes = {};
+    graphData.nodes.forEach(node => {
+        const key = String(node.episodeNumber).trim();
+        if (!epNumToNodes[key]) {
+            epNumToNodes[key] = [];
         }
+        epNumToNodes[key].push(node);
+    });
+
+    graphData.nodes.forEach(sourceNode => {
+        const ep = episodes.find(e => e._graphNodeId === sourceNode.id);
+        if (!ep) return;
+
+        // Exakt das JSON-Array wählen
+        const rawReferences = useTopics ? ep.topic_references : ep.references;
+        const targetIds = Array.isArray(rawReferences) ? rawReferences : [];
+
+        targetIds.forEach(refNum => {
+            const refKey = String(refNum).trim();
+            const targetNodes = epNumToNodes[refKey];
+
+            // Nur verknüpfen, wenn die Ziel-Folge auch existiert
+            if (targetNodes && targetNodes.length > 0) {
+                targetNodes.forEach(targetNode => {
+                    if (sourceNode.id !== targetNode.id) {
+                        // Duplikate (A -> B und B -> A) filtern
+                        const linkKey = [sourceNode.id, targetNode.id].sort().join('---');
+                        if (!linkSet.has(linkKey)) {
+                            linkSet.add(linkKey);
+                            links.push({
+                                source: sourceNode.id,
+                                target: targetNode.id
+                            });
+                        }
+                    }
+                });
+            }
+        });
     });
 
     return links;
@@ -113,23 +141,32 @@ function populateFilter(tagsArray) {
 
     select.addEventListener('change', (e) => {
         currentFilter = e.target.value;
-        
         Graph.nodeColor(Graph.nodeColor());
         Graph.linkColor(Graph.linkColor());
         Graph.d3ReheatSimulation();
     });
 }
 
-// Logik für Suchleiste und Toggle-Schalter
 function initSearchAndToggle() {
     const modeToggle = document.getElementById('modeToggle');
+    const toggleLabel = document.getElementById('toggleLabel');
+
     if (modeToggle) {
         modeToggle.addEventListener('change', (e) => {
             showTopicsMode = e.target.checked;
             
-            // Verknüpfungen neu bauen und 3D-Graph aktualisieren
-            graphData.links = buildLinks(rawEpisodes, showTopicsMode);
-            Graph.graphData(graphData);
+            if (toggleLabel) {
+                toggleLabel.textContent = showTopicsMode ? "Themen-Referenzen (topic_references)" : "Direkte Referenzen (references)";
+                toggleLabel.style.color = showTopicsMode ? "#00fe9c" : "#ffffff";
+            }
+
+            // Neu berechnen und Graph aktualisieren
+            graphData.links = buildDirectLinks(rawEpisodes, showTopicsMode);
+            Graph.graphData({
+                nodes: graphData.nodes,
+                links: graphData.links
+            });
+            Graph.d3ReheatSimulation();
         });
     }
 
@@ -137,24 +174,32 @@ function initSearchAndToggle() {
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().trim();
-            if (!query) return;
+            if (!query) {
+                searchInput.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+                return;
+            }
 
-            // Suche nach ID oder Titel
+            const cleanQuery = query.replace(/^(folge|episode|s0-|\s)*/gi, '').trim();
+
             const foundNode = graphData.nodes.find(n => 
-                n.id.toString() === query || n.title.toLowerCase().includes(query)
+                String(n.episodeNumber).trim() === cleanQuery || 
+                n.title.toLowerCase().includes(query)
             );
 
             if (foundNode && foundNode.x !== undefined) {
-                // Kamera sanft auf den gesuchten Stern ausrichten
-                const distance = 120;
+                searchInput.style.borderColor = '#00fe9c';
+
+                const distance = 100;
                 const hyp = Math.hypot(foundNode.x, foundNode.y, foundNode.z) || 1;
                 const distRatio = 1 + distance / hyp;
                 
                 Graph.cameraPosition(
                     { x: foundNode.x * distRatio, y: foundNode.y * distRatio, z: foundNode.z * distRatio },
-                    foundNode, // Zielpunkt
-                    2000       // Dauer der Flug-Animation in ms
+                    { x: foundNode.x, y: foundNode.y, z: foundNode.z },
+                    1800
                 );
+            } else {
+                searchInput.style.borderColor = '#ff2a6d';
             }
         });
     }
@@ -162,49 +207,30 @@ function initSearchAndToggle() {
 
 function initGraph() {
     Graph = ForceGraph3D()(document.getElementById('3d-graph'))
-        .graphData(graphData)
+        .graphData({ nodes: graphData.nodes, links: graphData.links })
         .backgroundColor('#020208')
         .nodeResolution(24)
-        
         .nodeColor(node => {
             const rgb = tagColors[node.primaryTag] || '255, 255, 255';
             if (currentFilter === 'all') return `rgba(${rgb}, 0.85)`;
             return node.primaryTag === currentFilter ? `rgba(${rgb}, 1.0)` : `rgba(${rgb}, 0.15)`;
         })
-        
         .nodeLabel(node => {
             const tagsHtml = node.tags.map(t => `<span class="tooltip-tag-badge">${t}</span>`).join('');
             const rgb = tagColors[node.primaryTag] || '255, 255, 255';
             return `
                 <div class="graph-tooltip" style="border-color: rgb(${rgb})">
-                    <div class="tooltip-title" style="color: rgb(${rgb})">Folge ${node.id}: ${node.title}</div>
+                    <div class="tooltip-title" style="color: rgb(${rgb})">Folge ${node.episodeNumber}: ${node.title}</div>
                     <div class="tooltip-tags">${tagsHtml}</div>
                 </div>
             `;
         })
-        
         .onNodeClick(node => {
             if (node.url) window.open(node.url, '_blank');
         })
-        
-        .linkWidth(link => {
-            if (currentFilter === 'all') return 1.5;
-            
-            const sTag = typeof link.source === 'object' ? link.source.primaryTag : (graphData.nodes.find(n => n.id === link.source) || {}).primaryTag;
-            const tTag = typeof link.target === 'object' ? link.target.primaryTag : (graphData.nodes.find(n => n.id === link.target) || {}).primaryTag;
-            
-            return (sTag === currentFilter || tTag === currentFilter) ? 2.5 : 0.5;
-        })
-        .linkColor(link => {
-            if (currentFilter === 'all') return 'rgba(255, 255, 255, 0.5)';
-            
-            const sTag = typeof link.source === 'object' ? link.source.primaryTag : (graphData.nodes.find(n => n.id === link.source) || {}).primaryTag;
-            const tTag = typeof link.target === 'object' ? link.target.primaryTag : (graphData.nodes.find(n => n.id === link.target) || {}).primaryTag;
-            
-            return (sTag === currentFilter || tTag === currentFilter) ? 'rgba(255, 255, 255, 0.9)' : 'rgba(255, 255, 255, 0.04)';
-        });
+        .linkWidth(1.5)
+        .linkColor(() => 'rgba(255, 255, 255, 0.4)');
 
-    // Cluster-Kraft
     const createClusterForce = () => {
         let nodes = [];
         const force = (alpha) => {
