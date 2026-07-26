@@ -260,6 +260,14 @@ function initGraph() {
         return force;
     };
 
+    const homeBtn = document.getElementById('homeBtn');
+    if (homeBtn) {
+        homeBtn.addEventListener('click', () => {
+            // Zoomt sanft über 1.2 Sekunden so, dass alle Nodes sichtbar sind
+            Graph.zoomToFit(1200, 80);
+        });
+}
+
     Graph.d3Force('cluster', createClusterForce());
     Graph.d3Force('charge').strength(-30);
 }
