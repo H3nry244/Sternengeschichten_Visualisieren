@@ -3,9 +3,8 @@ name: Automatisiertes Podcast Update
 on:
   schedule:
     # Läuft jeden Freitag um 12:00 Uhr UTC (ca. 14:00 Uhr unserer Zeit)
-    # Da Freitags meistens die neuen Sternengeschichten erscheinen.
     - cron: '0 12 * * 5'
-  workflow_dispatch: # Ermöglicht es dir, das Update jederzeit manuell per Klick auf GitHub zu starten
+  workflow_dispatch: # Ermöglicht manuellen Start per Klick auf GitHub
 
 jobs:
   update-data:
@@ -21,6 +20,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
+        cache: 'pip' # Cacht pip-Packages, damit der Build bei nächsten Mal schneller läuft
 
     - name: Python-Bibliotheken installieren
       run: |
@@ -30,16 +30,20 @@ jobs:
     - name: Scraper-Skript ausführen
       run: python scraper.py
 
+    # NEU: KI-Vektoren für neue/geänderte Folgen berechnen
+    - name: Vektor-Embeddings berechnen
+      run: python build_topics.py
+
     - name: Änderungen prüfen und automatisch commiten
       run: |
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
         git add episodes.json
         
-        # Nur commiten, wenn sich die episodes.json tatsächlich verändert hat (neue Folge online)
+        # Nur commiten, wenn sich die episodes.json durch Scraper oder KI verändert hat
         if git diff --staged --quiet; then
-          echo "Keine neuen Folgen gefunden. Alles up to date!"
+          echo "Keine neuen Folgen oder Änderungen gefunden. Alles up to date!"
         else
-          git commit -m "Automatisches Update: Neue Sternengeschichten-Folgen hinzugefügt"
+          git commit -m "Automatisches Update: Neue Folgen gescrapt und KI-Vektoren aktualisiert"
           git push
         fi
