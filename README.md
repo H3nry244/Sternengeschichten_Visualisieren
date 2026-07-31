@@ -23,11 +23,11 @@ Jetzt ist noch die Frage wie werden die neuen Folgen eingefügt, mit Tags verseh
 
 ## Features
 
-* ** Interaktiver 3D-Graph:** Erkunde Hunderte Podcast-Folgen in einem frei dreh- und zoombaren Raum (basierend auf Three.js / 3d-force-graph).
-* ** KI-Vektorisierung (Sentence Transformers):** Verhindert das "Hairball-Problem" (chaotische Riesen-Klumpen), indem Themen-Zusammenhänge über einen 384-dimensionalen Vektorraum und Kosinus-Ähnlichkeit berechnet werden.
-* ** Live Similarity-Threshold Slider:** Passe den Ähnlichkeits-Schwellenwert direkt auf der Webseite in Echtzeit an, um feinere oder breitere Themen Blöcke sichtbar zu machen.
-* ** Vollautomatisches Update (GitHub Actions):** Läuft jeden Freitag autonom ab – zieht neue Folgen, berechnet die Vektoren neu und committet das Ergebnis ins Repository.
-* ** Suche & Themen-Filter:** Schnellsuche nach Episodennummern oder Titeln inklusive automatischer Kamera-Zentrierung sowie Kategorie-Clustering.
+* Interaktiver 3D-Graph: Erkunde Hunderte Podcast-Folgen in einem frei dreh- und zoombaren Raum (basierend auf Three.js / 3d-force-graph).
+*  KI-Vektorisierung (Sentence Transformers): Verhindert das "Hairball-Problem" (chaotische Riesen-Klumpen), indem Themen-Zusammenhänge über einen 384-dimensionalen Vektorraum und Kosinus-Ähnlichkeit berechnet werden.
+*  Live Similarity-Threshold Slider: Passe den Ähnlichkeits-Schwellenwert direkt auf der Webseite in Echtzeit an, um feinere oder breitere Themen Blöcke sichtbar zu machen.
+*  Vollautomatisches Update (GitHub Actions): Läuft jeden Freitag autonom ab – zieht neue Folgen, berechnet die Vektoren neu und committet das Ergebnis ins Repository.
+*  Suche & Themen-Filter: Schnellsuche nach Episodennummern oder Titeln inklusive automatischer Kamera-Zentrierung sowie Kategorie-Clustering.
 
 ---
 
