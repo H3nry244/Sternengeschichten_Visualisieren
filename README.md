@@ -60,7 +60,7 @@ Wie werden neue Folgen hinzugefügt, klassifiziert und verknüpft?
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```text
 .
@@ -69,4 +69,8 @@ Wie werden neue Folgen hinzugefügt, klassifiziert und verknüpft?
 │       └── update.yml        # Wöchentlicher GitHub Action Workflow
 ├── episodes.json             # Episoden-Datenbank inkl. Vektor-Scores
 ├── scraper.py                # Scrapt neue Sternengeschichten-Folgen
-├── build_topics.py          # Berechnet KI-Embeddings &
+├── build_topics.py          # Berechnet KI-Embeddings & Ähnlichkeiten
+├── index.html                # Frontend-Struktur & Controls
+├── script.js                 # Graph-Logik, Kamera-Steuerung & Filter
+├── style.css                 # Kosmisches Neon-Styling
+└── requirements.txt          # Python-Abhängigkeiten
