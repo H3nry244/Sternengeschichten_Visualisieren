@@ -260,7 +260,7 @@ function initGraph() {
             if (node.url) window.open(node.url, '_blank');
         })
         .linkWidth(1.5)
-        .linkColor(() => 'rgba(255, 255, 255, 0.4)');
+        .linkColor(() => 'rgba(255, 255, 255, 0.7)');
 
     const createClusterForce = () => {
         let nodes = [];
