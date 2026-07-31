@@ -1,33 +1,51 @@
 # Sternengeschichten 3D
 
-Eine interaktive, dreidimensionale Graph-Visualisierung aller Episoden des AstronomiePodcasts **"Sternengeschichten"**. 
+Eine interaktive, dreidimensionale Graph-Visualisierung aller Episoden des Astronomie-Podcasts **"Sternengeschichten"**.
 
-# Hitergrund
+# Hintergrund
 
-Ich habe mir beim hören einer Folge, einmal die Frage gestellt, da Florian eine ältere Episode referenziert, wie oft er das macht und ob man dies irgendwie darstellen kann. So bin ich dann auf den Gedanken gekommen, ob es nicht möglich sein kann, dass alles im 3D Raum darzustellen und dadurch ist diese Webseite enstanden.
+Beim Hören einer Folge habe ich mir einmal die Frage gestellt – da Florian oft auf ältere Episoden referenziert –, wie häufig er das eigentlich tut und ob man diese Verknüpfungen visualisieren kann. So entstand der Gedanke, das Ganze im 3D-Raum darzustellen, woraus schließlich diese Webseite hervorgegangen ist.
 
 # URL der Webseite
 ## https://h3nry244.github.io/Sternengeschichten_Visualisieren/
 
-# Was kann die Webseite und wie funktioniert sie
+# Funktionalität und Funktionsweise
 
-Wenn jemand nur kurz die Features anschauen will, einfach weiter scrollen.
+*Wer sich nur schnell die Features anschauen möchte, kann einfach weiter nach unten scrollen.*
 
-Als aller erstes, wenn man die Webseite öffnet, sieht man das alle Folgen, wenn man über eine sogenannte "Node", wenn man dann über die Node hovert erscheint der Folgen Name und darunter die "Tags"(Auf diese komme ich später noch genau). Falls man auf eine Node drauf klickt, wird man sofort zu dieser Folge, auf https://sternengeschichten.podigee.io, geleitet und kann sich diese bei Interesse anhören. Sonst kann man auch mit der linken Maus Taste das ganze auch drehen zoomen mit dem Mausrad und verschieben mit der rechten Maustaste.
+Beim Öffnen der Webseite sieht man alle Folgen als sogenannte „Nodes“ (Knotenpunkte). Hovert man über eine Node, erscheinen der Titel der Folge sowie die zugehörigen Tags (auf diese gehe ich später genauer ein). Ein Klick auf eine Node leitet direkt zur jeweiligen Episode auf [sternengeschichten.podigee.io](https://sternengeschichten.podigee.io) weiter. Die Steuerung der Ansicht ist intuitiv: Mit der linken Maustaste lässt sich der Raum drehen, mit dem Mausrad zoomen und mit der rechten Maustaste verschieben.
 
-Dann zu den Buttons und Interfaces. Oben rechts ist ein Knopf zum zentrieren des ganzen "Universums", welcher die Ansicht wieder zentriert. In der Mitte kann nach einer einzelnen Folge gesucht werden, falls man bestimmte Folgen und deren zusammenhänge nachschauen will. Oben links ist dann ein Dropdown Menü, in welchen sich das Thema der dargestellten Nodes ausgewählt werden kann. Und in diesem Zuge will ich auch gleich die Farben der Nodes erklären. Und zwar sind die Nodes Farbkodiert in bestimmte Themen Gruppen, welche je nach Inhalt der Folge bestimmt werden (mit Hilfe des Primary Tags). Und zu guter Letzt und wahrscheinlich zum Interessantestem von allem, die Referenzen. Standardmäßig ist der Toggle auf direkte Referenzen eingestellt, dass bedeutet die Linien zwischen den Folgen werden nur dann erzeugt, wenn eine ältere Folge direkt referenziert wurde, also z.B "Letze Folge …" oder "In Folge 300". So lassen sich schon interessante Zusammenhänge herausfinden, wenn man jedoch den Toogle nach rechts klickt, stellt man die Linien auf die "Themen Referenzen" Ansicht um. Um diese Ansicht zu verstehen müssen wir etwas tiefer in den Prozess dahinter gehen. In dieser Ansicht werden die Folgen mit ähnlichen Folgen verknüpft, wie wissen wir wie ähnlich Folgen sind? wie rechnen und in einen 384 hohen Raum den Abstand (Winkel --> Kosinus-Ähnlichkeit) zwischen zwei Vektoren aus und erhalten so die Ähnlichkeit in einen Wert zwischen 0 und 1 (exklusive). Die Vektoren selber lassen wir uns durch ein Lokal laufendes KI-Model (paraphrase-multilingual-MiniLM-L12-v2) erstellen. So erhalten wir zwischen jeden Folgen einen Wert, welcher uns sagt wie ähnlich sich die beiden Folgen sind. Wenn wir jetzt nur alle Beziehungen anzeigen lassen würden, wäre das ein chaotisches Spektakel, daher brauchen wir einen Grenzwert (Threshold), welcher uns sagt, ab wie viel Prozent (die Zahl zwischen 0 und 1) wird die Beziehung angezeigt. Ich habe am Anfang überlegt den Threshold manuell zu setzen habe dieses setzen und rumspielen mit diesem Wert so interessant gefunden, dass ich es nicht statisch gesetzt habe, sondern einen Slider eingebaut habe, mit welchen man den Threshold selbst setzen kann. Standartmäßig ist er auf 0.75, was ein guter Wert ist, aber er kann bis 0.5 runter gesetzt werden (Achtung es kann sehr stark ruckeln) und auf bis zu 0.85 raufgesetzt werden. 
+### Steuerung & Interfaces
 
-Jetzt ist noch die Frage wie werden die neuen Folgen eingefügt, mit Tags versehen und Referenzen erstellt. Fangen wir an mit dem Punkt: Wie werden die neuen Folgen hinzugefügt? Und zwar gibt es in GitHub den Actions, mit diesem lasse ich jeden Freitag um 14:00 die neuste Sternengeschichten Folge einlesen. So bleibt alles aktuell. Jetzt läuft der "Scraper" (scraper.py), dieses Programm holt Mithilfe des RSS-Feeds oder auf der Webseite: https://sternengeschichten.podigee.io/feed/mp3 alle Infos, wie Titel, URL zur Folge, Manuelle Tags/Kategorien und das Transkript. Kurz ein Einschub zu Transkripten, und zwar gibt bis ca. Folge 300 keine Transkripte, daher habe ich Florian angeschrieben, ihm dieses Projekt vorgestellt und er hat mit alle Transkripte der 300 Folgen zukommen lassen, da wollte ich mich nochmal bedanken für die Texte, da ohne diese vieles nicht so möglich wäre wie es jetzt ist, danke! Nachdem jetzt alle "Rohdaten" erfasst und eingelesen wurden, wird das Transkript vektorisiert und nach Ähnlichkeiten mit anderen Folgen geprüft. All diese Infos werden dann in die Datei episodes.json geschrieben und dann beim nächsten Aufruf der Seite angezeigt.
+* **Zentrieren:** Oben rechts befindet sich ein Button, um das gesamte „Universum“ wieder in der Bildmitte auszurichten.
+* **Suche:** In der Mitte kann gezielt nach einzelnen Folgen gesucht werden, um deren Zusammenhänge zu analysieren.
+* **Themen-Filter & Farbcodierung:** Oben links bietet ein Dropdown-Menü die Möglichkeit, das Thema der dargestellten Nodes auszuwählen. Die Nodes sind farblich nach Themengruppen codiert, welche auf Basis des primären Tags bestimmt werden.
+* **Referenzen & Ähnlichkeiten:** Das Kernstück des Projekts. Standardmäßig zeigt der Schalter die *direkten Referenzen* an – das bedeutet, dass Verbindungslinien nur gezogen werden, wenn eine ältere Folge explizit erwähnt wurde (z. B. „wie in Folge 300 erwähnt“). 
+
+Klickt man den Schalter nach rechts, wechselt die Ansicht zu den **Themen-Referenzen**:
+In dieser Ansicht werden Folgen mit ähnlichen Inhalten verknüpft. Um zu bestimmen, wie ähnlich sich zwei Folgen sind, berechnen wir in einem 384-dimensionalen Vektorraum den Abstand (Winkel via Kosinus-Ähnlichkeit) zwischen zwei Vektoren. Das Ergebnis ist ein Ähnlichkeitswert zwischen 0 und 1. Die Vektoren selbst werden über ein lokal laufendes KI-Modell (`paraphrase-multilingual-MiniLM-L12-v2`) generiert.
+
+Da das Anzeigen aller Verbindungen in einem unübersichtlichen Chaos enden würde, kommt ein Grenzwert (**Threshold**) zum Einsatz: Dieser bestimmt, ab welchem Ähnlichkeitswert eine Linie gezeichnet wird. Anstatt diesen Wert fest vorzugeben, habe ich einen **Slider** eingebaut, mit dem sich der Threshold dynamisch anpassen lässt. Standardmäßig liegt er bei **0,75**. Er kann auf bis zu **0,5** gesenkt werden (Achtung: führt zu hoher Rechenlast/Ruckeln) oder auf **0,85** angehoben werden.
+
+### Daten-Pipeline & Automatisierung
+
+Wie werden neue Folgen hinzugefügt, klassifiziert und verknüpft?
+
+1. **Automatisches Einlesen:** Über **GitHub Actions** wird jeden Freitag um 14:00 Uhr automatisch die neueste Episode erfasst.
+2. **Scraping (`scraper.py`):** Das Python-Skript holt über den RSS-Feed ([sternengeschichten.podigee.io/feed/mp3](https://sternengeschichten.podigee.io/feed/mp3)) alle Metadaten wie Titel, URL, manuelle Tags und das Transkript.
+   * *Hinweis zu den Transkripten:* Bis etwa Folge 300 gab es keine öffentlichen Transkripte. Auf Nachfrage hat mir Florian freundlicherweise die Texte der ersten 300 Folgen zur Verfügung gestellt. An dieser Stelle noch einmal ein herzliches Dankeschön dafür – ohne diese Daten wäre das Projekt in dieser Form nicht möglich gewesen!
+3. **Vektorisierung (`build_topics.py`):** Sobald die Rohdaten vorliegen, wird das Transkript vektorisiert und auf Ähnlichkeiten zu allen anderen Folgen geprüft.
+4. **Bereitstellung:** Alle Ergebnisse werden in die `episodes.json` geschrieben, welche vom Frontend geladen wird.
 
 ---
 
 ## Features
 
-* Interaktiver 3D-Graph: Erkunde Hunderte Podcast-Folgen in einem frei dreh- und zoombaren Raum (basierend auf Three.js / 3d-force-graph).
-*  KI-Vektorisierung (Sentence Transformers): Verhindert das "Hairball-Problem" (chaotische Riesen-Klumpen), indem Themen-Zusammenhänge über einen 384-dimensionalen Vektorraum und Kosinus-Ähnlichkeit berechnet werden.
-*  Live Similarity-Threshold Slider: Passe den Ähnlichkeits-Schwellenwert direkt auf der Webseite in Echtzeit an, um feinere oder breitere Themen Blöcke sichtbar zu machen.
-*  Vollautomatisches Update (GitHub Actions): Läuft jeden Freitag autonom ab – zieht neue Folgen, berechnet die Vektoren neu und committet das Ergebnis ins Repository.
-*  Suche & Themen-Filter: Schnellsuche nach Episodennummern oder Titeln inklusive automatischer Kamera-Zentrierung sowie Kategorie-Clustering.
+* **Interaktiver 3D-Graph:** Erkunde Hunderte Podcast-Folgen in einem frei dreh- und zoombaren Raum (basierend auf *Three.js* / *3d-force-graph*).
+* **KI-Vektorisierung (Sentence Transformers):** Verhindert das „Hairball-Problem“ (chaotische Riesen-Klumpen), indem Themen-Zusammenhänge über einen 384-dimensionalen Vektorraum und Kosinus-Ähnlichkeit berechnet werden.
+* **Live Similarity-Threshold Slider:** Passe den Ähnlichkeits-Schwellenwert direkt auf der Webseite in Echtzeit an, um feinere oder breitere Themenblöcke sichtbar zu machen.
+* **Vollautomatisches Update (GitHub Actions):** Läuft jeden Freitag autonom ab – zieht neue Folgen, berechnet die Vektoren neu und committet das Ergebnis ins Repository.
+* **Suche & Themen-Filter:** Schnellsuche nach Episodennummern oder Titeln inklusive automatischer Kamera-Zentrierung sowie Kategorie-Clustering.
 
 ---
 
@@ -48,12 +66,7 @@ Jetzt ist noch die Frage wie werden die neuen Folgen eingefügt, mit Tags verseh
 .
 ├── .github/
 │   └── workflows/
-│       └── update.yml       # Wöchentlicher GitHub Action Workflow
-├── episodes.json            # Episoden-Datenbank inkl. Vektor-Scores
-├── scraper.py               # Scrapt neue Sternengeschichten-Folgen
-├── build_topics.py          # Berechnet KI-Embeddings & Ähnlichkeiten
-├── index.html               # Frontend-Struktur & Controls
-├── script.js                # Graph-Logik, Kamera-Steuerung & Filter
-├── style.css                # Kosmisches Neon-Styling
-└── requirements.txt         # Python-Abhängigkeiten
-
+│       └── update.yml        # Wöchentlicher GitHub Action Workflow
+├── episodes.json             # Episoden-Datenbank inkl. Vektor-Scores
+├── scraper.py                # Scrapt neue Sternengeschichten-Folgen
+├── build_topics.py          # Berechnet KI-Embeddings &
