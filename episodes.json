@@ -1618,8 +1618,8 @@
       "url": "https://sternengeschichten.podigee.io/21-sternengeschichten-folge-21-die-fast-unmogliche-entfernungsbestimmung",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -1911,8 +1911,8 @@
       "url": "https://sternengeschichten.podigee.io/25-sternengeschichten-folge-25-was-ist-dunkle-materie",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -1985,8 +1985,8 @@
       "url": "https://sternengeschichten.podigee.io/26-sternengeschichten-folge-26-was-ist-dunkle-energie",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -2121,8 +2121,8 @@
           "score": 0.659
         },
         {
-          "id": 263,
-          "score": 0.656
+          "id": 715,
+          "score": 0.657
         }
       ]
     },
@@ -2825,6 +2825,10 @@
           "score": 0.668
         },
         {
+          "id": 715,
+          "score": 0.665
+        },
+        {
           "id": 431,
           "score": 0.661
         },
@@ -2851,10 +2855,6 @@
         {
           "id": 599,
           "score": 0.609
-        },
-        {
-          "id": 608,
-          "score": 0.596
         }
       ]
     },
@@ -3065,16 +3065,16 @@
           "score": 0.684
         },
         {
+          "id": 715,
+          "score": 0.683
+        },
+        {
           "id": 499,
           "score": 0.67
         },
         {
           "id": 466,
           "score": 0.66
-        },
-        {
-          "id": 569,
-          "score": 0.654
         }
       ]
     },
@@ -3304,8 +3304,8 @@
       "url": "https://sternengeschichten.podigee.io/42-sternengeschichten-folge-42-gammablitze-die-grossten-explosionen-im-universum",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -5146,8 +5146,8 @@
       "url": "https://sternengeschichten.podigee.io/66-sternengeschichten-folge-66-sehen-mit-dem-licht-des-urknalls-der-sunyaev-zel-dovich-effekt",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -5366,8 +5366,8 @@
       "url": "https://sternengeschichten.podigee.io/69-sternengeschichten-folge-69-kosmische-inflation-teil-1-wer-braucht-die-inflation",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -5440,8 +5440,8 @@
       "url": "https://sternengeschichten.podigee.io/70-sternengeschichten-folge-70-kosmische-inflation-teil-2-was-knallt-beim-urknall",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -5516,8 +5516,8 @@
       "url": "https://sternengeschichten.podigee.io/71-sternengeschichten-folge-71-kosmische-inflation-teil-3-wie-bringt-man-ein-universum-zum-wackeln",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -6693,8 +6693,8 @@
       "url": "https://sternengeschichten.podigee.io/87-sternengeschichten-folge-87-die-wichtigste-sternenkarte-der-welt",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -7577,8 +7577,8 @@
       "url": "https://sternengeschichten.podigee.io/99-sternengeschichten-folge-99-der-anfang-von-allem",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -7650,10 +7650,10 @@
       "title": "Sternengeschichten: Eine Geschichte des Universums in 100 Sternen",
       "url": "https://sternengeschichten.podigee.io/50000-neue-episode",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -9193,8 +9193,8 @@
       "url": "https://sternengeschichten.podigee.io/120-sternengeschichten-folge-120-materie-antimaterie-und-der-neutrinolose-doppelte-betazerfall",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -9706,8 +9706,8 @@
       "url": "https://sternengeschichten.podigee.io/127-sternengeschichten-folge-127-das-radioaktive-leben-und-sterben-der-sterne",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -9854,8 +9854,8 @@
       "url": "https://sternengeschichten.podigee.io/129-sternengeschichten-folge-129-zwischen-feuer-und-eis-die-welteislehre",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -11611,8 +11611,8 @@
       "url": "https://sternengeschichten.podigee.io/153-sternengeschichten-folge-153-robert-grosseteste-und-das-mittelalterliche-multiversum",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -11980,8 +11980,8 @@
       "url": "https://sternengeschichten.podigee.io/158-sternengeschichten-folge-158-baryonische-akustische-oszillationen",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -12054,8 +12054,8 @@
       "url": "https://sternengeschichten.podigee.io/159-sternengeschichten-folge-159-die-kardaschow-skala",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -12713,8 +12713,8 @@
       "url": "https://sternengeschichten.podigee.io/168-sternengeschichten-folge-168-die-energie-im-inneren-der-sonne-teil-i",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -12787,8 +12787,8 @@
       "url": "https://sternengeschichten.podigee.io/169-sternengeschichten-folge-169-die-energie-im-inneren-der-sonne-teil-ii",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -12862,10 +12862,10 @@
       "title": "Das Large Synoptic Survey Telescope",
       "url": "https://sternengeschichten.podigee.io/170-sternengeschichten-folge-170-das-large-synoptic-survey-telescope",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -13744,8 +13744,8 @@
       "url": "https://sternengeschichten.podigee.io/182-sternengeschichten-folge-182-emmy-noether-und-die-erhaltungssatze-der-physik",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -14552,8 +14552,8 @@
       "url": "https://sternengeschichten.podigee.io/193-sternengeschichten-folge-193-das-dunkle-zeitalter-des-universums-und-das-erste-licht",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -15576,8 +15576,8 @@
       "url": "https://sternengeschichten.podigee.io/207-sternengeschichten-folge-207-swing-by-raumfahrt-mit-der-kraft-der-planeten",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -16968,8 +16968,8 @@
       "url": "https://sternengeschichten.podigee.io/226-sternengeschichten-folge-226-die-spharenmusik",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -18139,8 +18139,8 @@
       "url": "https://sternengeschichten.podigee.io/242-sternengeschichten-folge-242-der-kohlenstoffzyklus",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -18433,8 +18433,8 @@
       "url": "https://sternengeschichten.podigee.io/246-sternengeschichten-folge-246-der-dunkle-fluss",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -18653,8 +18653,8 @@
       "url": "https://sternengeschichten.podigee.io/249-sternengeschichten-folge-249-die-expansion-des-universum",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -20744,8 +20744,8 @@
       "url": "https://sternengeschichten.podigee.io/278-sternengeschichten-folge-278-stephen-hawking-der-anfang-von-allem-und-die-zeit-vor-dem-urknall",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -21109,10 +21109,10 @@
       "title": "Alles dreht sich",
       "url": "https://sternengeschichten.podigee.io/283-sternengeschichten-folge-283-alles-dreht-sich",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -23452,8 +23452,8 @@
       "title": "Eugenia und Petit-Prince",
       "url": "https://sternengeschichten.podigee.io/315-sternengeschichten-folge-315-eugenia-und-petit-prince",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -23741,8 +23741,8 @@
       "title": "Die Rückseite des Mondes",
       "url": "https://sternengeschichten.podigee.io/319-sternengeschichten-folge-319-die-ruckseite-des-mondes",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -23814,8 +23814,8 @@
       "title": "Die gestreute Scheibe",
       "url": "https://sternengeschichten.podigee.io/320-sternengeschichten-folge-320-die-gestreute-scheibe",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -23887,8 +23887,8 @@
       "title": "Die Oortsche Wolke",
       "url": "https://sternengeschichten.podigee.io/321-sternengeschichten-folge-321-die-oortsche-wolke",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -24536,8 +24536,8 @@
       "title": "Migrationsmeteoriten",
       "url": "https://sternengeschichten.podigee.io/330-sternengeschichten-folge-330-migrationsmeteoriten",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -24609,8 +24609,8 @@
       "title": "Halbmond, Neuvenus und Vollerde: Die Phasen der Himmelskörper",
       "url": "https://sternengeschichten.podigee.io/331-sternengeschichten-folge-331-halbmond-neuvenus-und-vollerde-die-phasen-der-himmelskorper",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25331,8 +25331,8 @@
       "title": "Astronomie auf und mit dem Mond",
       "url": "https://sternengeschichten.podigee.io/341-sternengeschichten-folge-341-astronomie-auf-und-mit-dem-mond",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25404,8 +25404,8 @@
       "title": "Warum die Asteroiden Asteroiden heißen",
       "url": "https://sternengeschichten.podigee.io/342-sternengeschichten-folge-342-warum-die-asteroiden-asteroiden-heissen",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25550,8 +25550,8 @@
       "title": "Michael Collins",
       "url": "https://sternengeschichten.podigee.io/344-sternengeschichten-folge-344-michael-collins",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25623,8 +25623,8 @@
       "title": "Mary Adela Blagg und die Benennung des Mondes",
       "url": "https://sternengeschichten.podigee.io/345-sternengeschichten-folge-345-mary-adela-blagg-und-die-benennung-des-mondes",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25696,8 +25696,8 @@
       "title": "Wie viele Monde hat die Erde?",
       "url": "https://sternengeschichten.podigee.io/346-sternengeschichten-folge-346-wie-viele-monde-hat-die-erde",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25769,8 +25769,8 @@
       "title": "Apollo 11 und die erste Landung auf dem Mond",
       "url": "https://sternengeschichten.podigee.io/347-sternengeschichten-folge-347-apollo-11-und-die-erste-landung-auf-dem-mond",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25842,8 +25842,8 @@
       "title": "Apollo 11 auf dem Mond und die Rückkehr zur Erde",
       "url": "https://sternengeschichten.podigee.io/348-sternengeschichten-folge-348-apollo-11-auf-dem-mond-und-die-ruckkehr-zur-erde",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -25915,8 +25915,8 @@
       "title": "'Oumuamua - Der interstellare Asteroid",
       "url": "https://sternengeschichten.podigee.io/349-sternengeschichten-folge-349-oumuamua-der-interstellare-asteroid",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -26060,8 +26060,8 @@
       "title": "MOND - Die modifizierte Newtonsche Dynamik",
       "url": "https://sternengeschichten.podigee.io/351-sternengeschichten-folge-351-mond-die-modifizierte-newtonsche-dynamik",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -26566,8 +26566,8 @@
       "title": "Very Long Baseline Interferometry",
       "url": "https://sternengeschichten.podigee.io/358-sternengeschichten-folge-358-very-long-baseline-interferometry",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -26639,8 +26639,8 @@
       "title": "Grüne-Erbsen-Galaxien und das dunkle Zeitalter des Universums",
       "url": "https://sternengeschichten.podigee.io/359-sternengeschichten-folge-359-grune-erbsen-galaxien-und-das-dunkle-zeitalter-des-universums",
       "tags": [
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -26766,16 +26766,16 @@
           "score": 0.668
         },
         {
+          "id": 715,
+          "score": 0.662
+        },
+        {
           "id": 500,
           "score": 0.658
         },
         {
           "id": 595,
           "score": 0.657
-        },
-        {
-          "id": 341,
-          "score": 0.655
         }
       ]
     },
@@ -26784,8 +26784,8 @@
       "title": "Wie kommt die Astronomie an ihre Bilder?",
       "url": "https://sternengeschichten.podigee.io/361-sternengeschichten-folge-361-wie-kommt-die-astronomie-an-ihre-bilder",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -26857,8 +26857,8 @@
       "title": "Das Spitzer-Weltraumteleskop",
       "url": "https://sternengeschichten.podigee.io/362-sternengeschichten-folge-362-das-spitzer-weltraumteleskop",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -27579,8 +27579,8 @@
       "title": "Falling Evaporating Bodies",
       "url": "https://sternengeschichten.podigee.io/372-sternengeschichten-folge-372-falling-evaporating-bodies",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28228,8 +28228,8 @@
       "title": "Impaktwinter",
       "url": "https://sternengeschichten.podigee.io/381-sternengeschichten-folge-381-impaktwinter",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28301,8 +28301,8 @@
       "title": "Der Saturnmond Tethys",
       "url": "https://sternengeschichten.podigee.io/382-sternengeschichten-folge-382-der-saturnmond-tethys",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28590,8 +28590,8 @@
       "title": "Die Pole des Mondes",
       "url": "https://sternengeschichten.podigee.io/386-sternengeschichten-folge-386-die-pole-des-mondes",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28663,8 +28663,8 @@
       "title": "Der Asteroid Hygiea",
       "url": "https://sternengeschichten.podigee.io/387-sternengeschichten-folge-387-der-asteroid-hygiea",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28808,8 +28808,8 @@
       "title": "Das Hubble-Weltraumteleskop",
       "url": "https://sternengeschichten.podigee.io/389-sternengeschichten-folge-389-das-hubble-weltraumteleskop",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -28881,8 +28881,8 @@
       "title": "Der Einfluss des Mondes auf das Klima",
       "url": "https://sternengeschichten.podigee.io/390-sternengeschichten-folge-390-der-einfluss-des-mondes-auf-das-klima",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -30234,8 +30234,8 @@
       "title": "Shakespeare am Himmel - Die Entdeckung der Monde des Uranus",
       "url": "https://sternengeschichten.podigee.io/409-sternengeschichten-folge-409-shakespeare-am-himmel-die-entdeckung-der-monde-des-uranus",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -30379,8 +30379,8 @@
       "title": "Der Asteroid Arrokoth",
       "url": "https://sternengeschichten.podigee.io/411-sternengeschichten-folge-411-der-asteroid-arrokoth",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -30524,10 +30524,10 @@
       "title": "Wie die Sonne nicht leuchtet",
       "url": "https://sternengeschichten.podigee.io/413-sternengeschichten-folge-413-wie-die-sonne-nicht-leuchtet",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -30605,9 +30605,9 @@
       "title": "Terraforming am Mars",
       "url": "https://sternengeschichten.podigee.io/414-sternengeschichten-folge-414-terraforming-am-mars",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -30679,9 +30679,9 @@
       "title": "Die Nacht in der der Mond verschwand",
       "url": "https://sternengeschichten.podigee.io/415-sternengeschichten-folge-415-die-nacht-in-der-der-mond-verschwand",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -30832,8 +30832,8 @@
       "url": "https://sternengeschichten.podigee.io/417-sternengeschichten-folge-417-fluor-und-sein-astronomisches-geheimnis",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -30907,10 +30907,10 @@
       "title": "Milkomeda und die galaktische Kollision",
       "url": "https://sternengeschichten.podigee.io/418-sternengeschichten-folge-418-milkomeda-und-die-galaktische-kollision",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -30984,9 +30984,9 @@
       "title": "Der Vredefort-Krater",
       "url": "https://sternengeschichten.podigee.io/419-sternengeschichten-folge-419-der-vredefort-krater",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -31136,8 +31136,8 @@
       "title": "Supervulkane",
       "url": "https://sternengeschichten.podigee.io/421-sternengeschichten-folge-421-supervulkane",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -31213,9 +31213,9 @@
       "title": "Das Maunder-Minimum",
       "url": "https://sternengeschichten.podigee.io/422-sternengeschichten-folge-422-das-maunder-minimum",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -31365,10 +31365,10 @@
       "title": "Röntgenastronomie",
       "url": "https://sternengeschichten.podigee.io/424-sternengeschichten-folge-424-rontgenastronomie",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -31595,8 +31595,8 @@
       "title": "Der Einschlag des Asteroiden 2008 TC3",
       "url": "https://sternengeschichten.podigee.io/427-sternengeschichten-folge-427-der-einschlag-des-asteroiden-2008-tc3",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -31748,9 +31748,9 @@
       "title": "Missionen zum Mars",
       "url": "https://sternengeschichten.podigee.io/429-sternengeschichten-folge-429-missionen-zum-mars",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -31825,8 +31825,8 @@
       "url": "https://sternengeschichten.podigee.io/430-sternengeschichten-folge-430-weisse-locher",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -31981,8 +31981,8 @@
       "url": "https://sternengeschichten.podigee.io/432-sternengeschichten-folge-432-wiedergeborene-blaue-nachzugler",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -32056,10 +32056,10 @@
       "title": "KIC 8462852 und die angebliche Alien-Zivilisation",
       "url": "https://sternengeschichten.podigee.io/433-sternengeschichten-folge-433-kic-8462852-und-die-angebliche-alien-zivilisation",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -32212,10 +32212,10 @@
       "title": "Der Kozai-Effekt",
       "url": "https://sternengeschichten.podigee.io/435-sternengeschichten-folge-435-der-kozai-effekt",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -32362,10 +32362,10 @@
       "title": "Icarus und das Licht der fernsten Sterne",
       "url": "https://sternengeschichten.podigee.io/437-sternengeschichten-folge-437-icarus-und-das-licht-der-fernsten-sterne",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -32439,8 +32439,8 @@
       "title": "Beta Pictoris",
       "url": "https://sternengeschichten.podigee.io/438-sternengeschichten-folge-438-beta-pictoris",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -32512,10 +32512,10 @@
       "title": "Nancy Roman",
       "url": "https://sternengeschichten.podigee.io/439-sternengeschichten-folge-439-nancy-roman",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -32818,8 +32818,8 @@
       "title": "Der Asteroid Ceres",
       "url": "https://sternengeschichten.podigee.io/443-sternengeschichten-folge-443-der-asteroid-ceres",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -33000,6 +33000,10 @@
           "score": 0.654
         },
         {
+          "id": 715,
+          "score": 0.649
+        },
+        {
           "id": 417,
           "score": 0.649
         },
@@ -33034,10 +33038,6 @@
         {
           "id": 499,
           "score": 0.602
-        },
-        {
-          "id": 361,
-          "score": 0.602
         }
       ]
     },
@@ -33047,8 +33047,8 @@
       "url": "https://sternengeschichten.podigee.io/446-sternengeschichten-folge-446-das-konzil-der-riesen",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -33122,8 +33122,8 @@
       "title": "Sol und Dhanus - Zeitmessung auf dem Mars",
       "url": "https://sternengeschichten.podigee.io/447-sternengeschichten-folge-447-sol-und-dhanus-zeitmessung-auf-dem-mars",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -33200,8 +33200,8 @@
       "title": "Der Asteroid Apophis",
       "url": "https://sternengeschichten.podigee.io/448-sternengeschichten-folge-448-der-asteroid-apophis",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -33276,9 +33276,9 @@
       "title": "Die Chromosphäre der Sonne",
       "url": "https://sternengeschichten.podigee.io/449-sternengeschichten-folge-449-die-chromosphare-der-sonne",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -33429,10 +33429,10 @@
       "title": "Der Treibhauseffekt auf anderen Himmelskörpern",
       "url": "https://sternengeschichten.podigee.io/451-sternengeschichten-folge-451-der-treibhauseffekt-auf-anderen-himmelskorpern",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -33581,10 +33581,10 @@
       "title": "Das elektrische Universum und das mächtige Gefühl des Staunens",
       "url": "https://sternengeschichten.podigee.io/453-sternengeschichten-folge-453-das-elektrische-universum-und-das-machtige-gefuhl-des-staunens",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -33659,10 +33659,10 @@
       "title": "Die ersten Sterne des Universums",
       "url": "https://sternengeschichten.podigee.io/454-sternengeschichten-folge-454-die-ersten-sterne-des-universums",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -33736,10 +33736,10 @@
       "title": "Die Geschichte der aktive Galaxienkerne",
       "url": "https://sternengeschichten.podigee.io/455-sternengeschichten-folge-455-die-geschichte-der-aktive-galaxienkerne",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -33967,10 +33967,10 @@
       "title": "Im Mittelpunkt des Universum",
       "url": "https://sternengeschichten.podigee.io/458-sternengeschichten-folge-458-im-mittelpunkt-des-universum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -34044,8 +34044,8 @@
       "title": "Ist das Universum ein schwarzes Loch?",
       "url": "https://sternengeschichten.podigee.io/459-sternengeschichten-folge-459-ist-das-universum-ein-schwarzes-loch",
       "tags": [
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -34120,10 +34120,10 @@
       "title": "Antimaterie-Blitze und außerirdische Gewitter",
       "url": "https://sternengeschichten.podigee.io/460-sternengeschichten-folge-460-antimaterie-blitze-und-ausserirdische-gewitter",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -34195,10 +34195,10 @@
       "title": "Antisterne",
       "url": "https://sternengeschichten.podigee.io/461-sternengeschichten-folge-461-antisterne",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -34346,10 +34346,10 @@
       "title": "Waltraut Seitter: Die erste Astronomin Deutschlands und die Expansion des Universums",
       "url": "https://sternengeschichten.podigee.io/463-sternengeschichten-folge-463-waltraut-seitter-die-erste-astronomin-deutschlands-und-die-expansion-des-universums",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -34424,9 +34424,9 @@
       "title": "Biosignaturen: Auf der Suche nach außerirdischem Leben",
       "url": "https://sternengeschichten.podigee.io/464-sternengeschichten-folge-464-biosignaturen-auf-der-suche-nach-ausserirdischem-leben",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -34499,8 +34499,8 @@
       "url": "https://sternengeschichten.podigee.io/465-sternengeschichten-folge-465-plasma-ist-uberall",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -34575,8 +34575,8 @@
       "title": "Die \"Astronomischen Nachrichten\"",
       "url": "https://sternengeschichten.podigee.io/466-sternengeschichten-folge-466-die-astronomischen-nachrichten",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -34723,10 +34723,10 @@
       "title": "Halton Arp und seine seltsamen Galaxien",
       "url": "https://sternengeschichten.podigee.io/468-sternengeschichten-folge-468-halton-arp-und-seine-seltsamen-galaxien",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -34878,8 +34878,8 @@
       "url": "https://sternengeschichten.podigee.io/470-sternengeschichten-folge-470-machos-und-rambos",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -34957,8 +34957,8 @@
       "url": "https://sternengeschichten.podigee.io/471-sternengeschichten-folge-471-primordiale-schwarze-locher",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -35034,8 +35034,8 @@
       "title": "Somnium - Johannes Keplers Traum vom Mond",
       "url": "https://sternengeschichten.podigee.io/472-sternengeschichten-folge-472-somnium-johannes-keplers-traum-vom-mond",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -35187,8 +35187,8 @@
       "title": "Weihnachten und die Wintersonnenwende",
       "url": "https://sternengeschichten.podigee.io/474-sternengeschichten-folge-474-weihnachten-und-die-wintersonnenwende",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -35262,8 +35262,8 @@
       "title": "Aldebaran, das Auge des Stiers",
       "url": "https://sternengeschichten.podigee.io/475-sternengeschichten-folge-475-aldebaran-das-auge-des-stiers",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -35335,9 +35335,9 @@
       "title": "Parkplätze im All: Wo sind die Lagrange-Punkte?",
       "url": "https://sternengeschichten.podigee.io/476-sternengeschichten-folge-476-parkplatze-im-all-wo-sind-die-lagrange-punkte",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -35412,10 +35412,10 @@
       "title": "Parkplätze im All: Lissajous- und Halo-Umlaufbahnen",
       "url": "https://sternengeschichten.podigee.io/477-sternengeschichten-folge-477-parkplatze-im-all-lissajous-und-halo-umlaufbahnen",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -35563,8 +35563,8 @@
       "title": "Der Erdähnlichkeitsindex",
       "url": "https://sternengeschichten.podigee.io/479-sternengeschichten-folge-479-der-erdahnlichkeitsindex",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -35636,10 +35636,10 @@
       "title": "Galaxien-Wurst im Inneren der Milchstraße",
       "url": "https://sternengeschichten.podigee.io/480-sternengeschichten-folge-480-galaxien-wurst-im-inneren-der-milchstrasse",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -35713,8 +35713,8 @@
       "title": "Der Meteor von Tscheljabinsk",
       "url": "https://sternengeschichten.podigee.io/481-sternengeschichten-folge-481-der-meteor-von-tscheljabinsk",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -35864,10 +35864,10 @@
       "title": "Kosmische Magnetfelder",
       "url": "https://sternengeschichten.podigee.io/483-sternengeschichten-folge-483-kosmische-magnetfelder",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -35941,10 +35941,10 @@
       "title": "Das Carrington-Ereignis",
       "url": "https://sternengeschichten.podigee.io/484-sternengeschichten-folge-484-das-carrington-ereignis",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -36019,8 +36019,8 @@
       "title": "Mondstillstand, Klimawandel und lästige Überschwemmungen",
       "url": "https://sternengeschichten.podigee.io/485-sternengeschichten-folge-485-mondstillstand-klimawandel-und-lastige-uberschwemmungen",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -36170,10 +36170,10 @@
       "title": "Fast Radio Bursts",
       "url": "https://sternengeschichten.podigee.io/487-sternengeschichten-folge-487-fast-radio-bursts",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -36248,10 +36248,10 @@
       "title": "Gouldscher Gürtel und Radcliffe-Welle",
       "url": "https://sternengeschichten.podigee.io/488-sternengeschichten-folge-488-gouldscher-gurtel-und-radcliffe-welle",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -36323,8 +36323,8 @@
       "title": "Der Saturnmond Mimas",
       "url": "https://sternengeschichten.podigee.io/489-sternengeschichten-folge-489-der-saturnmond-mimas",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -36396,9 +36396,9 @@
       "title": "Technosignaturen: Auf der Suche nach intelligenten Aliens",
       "url": "https://sternengeschichten.podigee.io/490-sternengeschichten-folge-490-technosignaturen-auf-der-suche-nach-intelligenten-aliens",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -36474,10 +36474,10 @@
       "title": "Das Steady-State-Universum",
       "url": "https://sternengeschichten.podigee.io/491-sternengeschichten-folge-491-das-steady-state-universum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -36552,8 +36552,8 @@
       "title": "Kometenwein",
       "url": "https://sternengeschichten.podigee.io/492-sternengeschichten-folge-492-kometenwein",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -36701,8 +36701,8 @@
       "title": "Die höchsten Berge des Sonnensystems",
       "url": "https://sternengeschichten.podigee.io/494-sternengeschichten-folge-494-die-hochsten-berge-des-sonnensystems",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -36924,10 +36924,10 @@
       "title": "Wie die schwarzen Löcher zu ihren Namen gekommen sind",
       "url": "https://sternengeschichten.podigee.io/497-sternengeschichten-folge-497-wie-die-schwarzen-locher-zu-ihren-namen-gekommen-sind",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -37434,16 +37434,16 @@
           "score": 0.497
         },
         {
+          "id": 715,
+          "score": 0.491
+        },
+        {
           "id": 428,
           "score": 0.49
         },
         {
           "id": 665,
           "score": 0.486
-        },
-        {
-          "id": 615,
-          "score": 0.481
         }
       ]
     },
@@ -37453,8 +37453,8 @@
       "url": "https://sternengeschichten.podigee.io/503-sternengeschichten-folge-503-der-weg-der-erde-durch-das-universum",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -37531,10 +37531,10 @@
       "title": "Die 21-Zentimeter-Linie des Wasserstoffs",
       "url": "https://sternengeschichten.podigee.io/504-sternengeschichten-folge-504-die-21-zentimeter-linie-des-wasserstoffs",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -37684,8 +37684,8 @@
       "title": "Cosmic Latte - die Farbe des Universums",
       "url": "https://sternengeschichten.podigee.io/506-sternengeschichten-folge-506-cosmic-latte-die-farbe-des-universums",
       "tags": [
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -37757,10 +37757,10 @@
       "title": "Mit dem Sonnensegel durch den Weltraum",
       "url": "https://sternengeschichten.podigee.io/507-sternengeschichten-folge-507-mit-dem-sonnensegel-durch-den-weltraum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -37834,10 +37834,10 @@
       "title": "Die Arecibo-Sternwarte",
       "url": "https://sternengeschichten.podigee.io/508-sternengeschichten-folge-508-die-arecibo-sternwarte",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -37911,10 +37911,10 @@
       "title": "Osiris - ein verdampfender Planet",
       "url": "https://sternengeschichten.podigee.io/509-sternengeschichten-folge-509-osiris-ein-verdampfender-planet",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -38062,10 +38062,10 @@
       "title": "Die Rotation der Erde",
       "url": "https://sternengeschichten.podigee.io/511-sternengeschichten-folge-511-die-rotation-der-erde",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -38213,10 +38213,10 @@
       "title": "Störende Satelliten und die Helligkeit des Nachthimmels",
       "url": "https://sternengeschichten.podigee.io/513-sternengeschichten-folge-513-storende-satelliten-und-die-helligkeit-des-nachthimmels",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -38292,8 +38292,8 @@
       "url": "https://sternengeschichten.podigee.io/514-sternengeschichten-folge-514-axionen-und-die-dunkle-materie",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -38368,10 +38368,10 @@
       "title": "Der große Filter",
       "url": "https://sternengeschichten.podigee.io/515-sternengeschichten-folge-515-der-grosse-filter",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -38535,6 +38535,10 @@
           "score": 0.764
         },
         {
+          "id": 715,
+          "score": 0.729
+        },
+        {
           "id": 676,
           "score": 0.722
         },
@@ -38585,10 +38589,6 @@
         {
           "id": 255,
           "score": 0.678
-        },
-        {
-          "id": 689,
-          "score": 0.672
         }
       ]
     },
@@ -38746,10 +38746,10 @@
       "title": "Der tote Diamantenstern",
       "url": "https://sternengeschichten.podigee.io/520-sternengeschichten-folge-520-der-tote-diamantenstern",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -38825,9 +38825,9 @@
       "title": "Der Muonionalusta-Meteorit",
       "url": "https://sternengeschichten.podigee.io/521-sternengeschichten-folge-521-der-muonionalusta-meteorit",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -38899,10 +38899,10 @@
       "title": "Das atmosphärische Fenster",
       "url": "https://sternengeschichten.podigee.io/522-sternengeschichten-folge-522-das-atmospharische-fenster",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -38974,8 +38974,8 @@
       "title": "Fledermausmenschen auf dem Mond: Der große Moon-Hoax",
       "url": "https://sternengeschichten.podigee.io/523-sternengeschichten-folge-523-fledermausmenschen-auf-dem-mond-der-grosse-moon-hoax",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -39124,8 +39124,8 @@
       "title": "Pflanzen im Weltall",
       "url": "https://sternengeschichten.podigee.io/525-sternengeschichten-folge-525-pflanzen-im-weltall",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -39199,10 +39199,10 @@
       "title": "Das Deep Space Network",
       "url": "https://sternengeschichten.podigee.io/526-sternengeschichten-folge-526-das-deep-space-network",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -39351,10 +39351,10 @@
       "title": "P Cygni - Das spontane Auftauchen eines Riesensterns",
       "url": "https://sternengeschichten.podigee.io/528-sternengeschichten-folge-528-p-cygni-das-spontane-auftauchen-eines-riesensterns",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -39504,10 +39504,10 @@
       "title": "Die Vatikanische Sternwarte",
       "url": "https://sternengeschichten.podigee.io/530-sternengeschichten-folge-530-die-vatikanische-sternwarte",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -39583,9 +39583,9 @@
       "title": "Wer ist zuständig wenn die Aliens kommen?",
       "url": "https://sternengeschichten.podigee.io/531-sternengeschichten-folge-531-wer-ist-zustandig-wenn-die-aliens-kommen",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -39657,9 +39657,9 @@
       "title": "Wie man das Leben auf der Erde ausrotten kann",
       "url": "https://sternengeschichten.podigee.io/532-sternengeschichten-folge-532-wie-man-das-leben-auf-der-erde-ausrotten-kann",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -39805,8 +39805,8 @@
       "title": "Quaoar, ein besonderer Asteroid",
       "url": "https://sternengeschichten.podigee.io/534-sternengeschichten-folge-534-quaoar-ein-besonderer-asteroid",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -39878,9 +39878,9 @@
       "title": "Maßeinheiten und das Système International",
       "url": "https://sternengeschichten.podigee.io/535-sternengeschichten-folge-535-masseinheiten-und-das-systeme-international",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -39954,8 +39954,8 @@
       "title": "Der Komet Shoemaker-Levy 9",
       "url": "https://sternengeschichten.podigee.io/536-sternengeschichten-folge-536-der-komet-shoemaker-levy-9",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -40027,8 +40027,8 @@
       "title": "Die Helios-Raumsonden",
       "url": "https://sternengeschichten.podigee.io/537-sternengeschichten-folge-537-die-helios-raumsonden",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -40178,8 +40178,8 @@
       "title": "Der Transit der Venus",
       "url": "https://sternengeschichten.podigee.io/539-sternengeschichten-folge-539-der-transit-der-venus",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -40253,8 +40253,8 @@
       "title": "Das Tychonische Weltmodell",
       "url": "https://sternengeschichten.podigee.io/540-sternengeschichten-folge-540-das-tychonische-weltmodell",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -40478,8 +40478,8 @@
       "title": "Die Ringe des Uranus",
       "url": "https://sternengeschichten.podigee.io/543-sternengeschichten-folge-543-die-ringe-des-uranus",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -40554,8 +40554,8 @@
       "url": "https://sternengeschichten.podigee.io/544-sternengeschichten-folge-544-dunkle-supernova",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -40627,8 +40627,8 @@
       "title": "Die Magnetfelder der inneren Planeten",
       "url": "https://sternengeschichten.podigee.io/545-sternengeschichten-folge-545-die-magnetfelder-der-inneren-planeten",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -40703,10 +40703,10 @@
       "title": "Hyperkompakte Sternensysteme",
       "url": "https://sternengeschichten.podigee.io/546-sternengeschichten-folge-546-hyperkompakte-sternensysteme",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -40780,9 +40780,9 @@
       "title": "Michael Stifel und der Weltuntergang",
       "url": "https://sternengeschichten.podigee.io/547-sternengeschichten-folge-547-michael-stifel-und-der-weltuntergang",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -40930,8 +40930,8 @@
       "title": "Der Asteroid Interamnia",
       "url": "https://sternengeschichten.podigee.io/549-sternengeschichten-folge-549-der-asteroid-interamnia",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -41007,8 +41007,8 @@
       "url": "https://sternengeschichten.podigee.io/550-sternengeschichten-550-kugelblitz-ein-schwarzes-loch-aus-licht",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -41084,8 +41084,8 @@
       "url": "https://sternengeschichten.podigee.io/551-sternengeschichten-folge-551-marietta-blau-und-die-zertrummerungssterne",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -41160,10 +41160,10 @@
       "title": "Der Stickstoff der Erdatmosphäre",
       "url": "https://sternengeschichten.podigee.io/552-sternengeschichten-folge-552-der-stickstoff-der-erdatmosphare",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -41237,10 +41237,10 @@
       "title": "Warum ist der Himmel blau?",
       "url": "https://sternengeschichten.podigee.io/553-sternengeschichten-folge-553-warum-ist-der-himmel-blau",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -41312,9 +41312,9 @@
       "title": "Sternbeben",
       "url": "https://sternengeschichten.podigee.io/554-sternengeschichten-folge-554-sternbeben",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -41389,10 +41389,10 @@
       "title": "Die Geschichte des Einsteinrings",
       "url": "https://sternengeschichten.podigee.io/555-sternengeschichten-folge-555-die-geschichte-des-einsteinrings",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -41536,8 +41536,8 @@
       "title": "Das verschwundene Hafnium und die Entstehung der Erde",
       "url": "https://sternengeschichten.podigee.io/557-sternengeschichten-folge-557-das-verschwundene-hafnium-und-die-entstehung-der-erde",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -41760,8 +41760,8 @@
       "url": "https://sternengeschichten.podigee.io/560-sternengeschichten-folge-560-quasi-sterne",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -41837,8 +41837,8 @@
       "url": "https://sternengeschichten.podigee.io/561-sternengeschichten-folge-561-die-entstehung-des-universums-aus-dem-nichts",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -41911,8 +41911,8 @@
       "url": "https://sternengeschichten.podigee.io/562-sternengeschichten-folge-562-die-ursprungliche-massefunktion",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -42285,10 +42285,10 @@
       "title": "Der Granatstern My Cephei",
       "url": "https://sternengeschichten.podigee.io/567-sternengeschichten-folge-567-der-granatstern-my-cephei",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -42438,10 +42438,10 @@
       "title": "Galaktische Gezeiten",
       "url": "https://sternengeschichten.podigee.io/569-sternengeschichten-folge-569-galaktische-gezeiten",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -42517,9 +42517,9 @@
       "title": "Auf der Suche nach außerirdischen Bäumen",
       "url": "https://sternengeschichten.podigee.io/570-sternengeschichten-folge-570-auf-der-suche-nach-ausserirdischen-baumen",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -42669,9 +42669,9 @@
       "title": "Terraforming auf der Venus",
       "url": "https://sternengeschichten.podigee.io/572-sternengeschichten-folge-572-terraforming-auf-der-venus",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -42979,8 +42979,8 @@
       "url": "https://sternengeschichten.podigee.io/576-sternengeschichten-folge-576-der-helium-blitz",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -43052,14 +43052,18 @@
       "title": "Der Krieg zwischen Sonne und Mond und die erste Science-Fiction-Geschichte der Welt",
       "url": "https://sternengeschichten.podigee.io/577-sternengeschichten-folge-577-der-krieg-zwischen-sonne-und-mond-und-die-erste-science-fiction-geschichte-der-welt",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
         472
       ],
       "topic_references": [
+        {
+          "id": 715,
+          "score": 0.638
+        },
         {
           "id": 28,
           "score": 0.636
@@ -43115,10 +43119,6 @@
         {
           "id": 680,
           "score": 0.554
-        },
-        {
-          "id": 615,
-          "score": 0.55
         }
       ]
     },
@@ -43128,8 +43128,8 @@
       "url": "https://sternengeschichten.podigee.io/578-sternengeschichten-folge-578-das-lambda-cdm-modell",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -43205,10 +43205,10 @@
       "title": "Das Intracluster-Medium",
       "url": "https://sternengeschichten.podigee.io/579-sternengeschichten-folge-579-das-intracluster-medium",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -43434,10 +43434,10 @@
       "title": "Der kalte Fleck im Universum",
       "url": "https://sternengeschichten.podigee.io/582-sternengeschichten-folge-582-der-kalte-fleck-im-universum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -43513,10 +43513,10 @@
       "title": "Begraben im Weltall",
       "url": "https://sternengeschichten.podigee.io/583-sternengeschichten-folge-583-begraben-im-weltall",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -43590,10 +43590,10 @@
       "title": "B2FH und die Entstehung der Atome",
       "url": "https://sternengeschichten.podigee.io/584-sternengeschichten-folge-584-b2fh-und-die-entstehung-der-atome",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -43667,10 +43667,10 @@
       "title": "Das Sternbild Drache",
       "url": "https://sternengeschichten.podigee.io/585-sternengeschichten-folge-585-das-sternbild-drache",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -43745,8 +43745,8 @@
       "url": "https://sternengeschichten.podigee.io/586-sternengeschichten-folge-586-das-lokale-loch",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -43895,8 +43895,8 @@
       "title": "Fomalhaut - Der staubige Mund des Fisches",
       "url": "https://sternengeschichten.podigee.io/588-sternengeschichten-folge-588-fomalhaut-der-staubige-mund-des-fisches",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -43971,8 +43971,8 @@
       "url": "https://sternengeschichten.podigee.io/589-sternengeschichten-folge-589-das-quark-gluon-plasma",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -44044,8 +44044,8 @@
       "title": "Joseph Weber und der vielleicht erste Nachweis von Gravitationswellen",
       "url": "https://sternengeschichten.podigee.io/590-sternengeschichten-folge-590-joseph-weber-und-der-vielleicht-erste-nachweis-von-gravitationswellen",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -44267,8 +44267,8 @@
       "title": "Hyperion und das Chaos",
       "url": "https://sternengeschichten.podigee.io/593-sternengeschichten-folge-593-hyperion-und-das-chaos",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -44414,8 +44414,8 @@
       "title": "Thomas Harriot, der erste moderne Astronom?",
       "url": "https://sternengeschichten.podigee.io/595-sternengeschichten-folge-595-thomas-harriot-der-erste-moderne-astronom",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -44487,10 +44487,10 @@
       "title": "Die Quintessenz und die Dunkle Energie",
       "url": "https://sternengeschichten.podigee.io/596-sternengeschichten-folge-596-die-quintessenz-und-die-dunkle-energie",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -44565,8 +44565,8 @@
       "title": "Der grüne Blitz",
       "url": "https://sternengeschichten.podigee.io/597-sternengeschichten-folge-597-der-grune-blitz",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -44638,9 +44638,9 @@
       "title": "Der Gas-Torus von Io",
       "url": "https://sternengeschichten.podigee.io/598-sternengeschichten-folge-598-der-gas-torus-von-io",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -44714,10 +44714,10 @@
       "title": "Der lange kosmische Nachmittag",
       "url": "https://sternengeschichten.podigee.io/599-sternengeschichten-folge-599-der-lange-kosmische-nachmittag",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -44789,10 +44789,10 @@
       "title": "Prä-Astronautik - Waren die Aliens schon zu Besuch auf der Erde?",
       "url": "https://sternengeschichten.podigee.io/600-sternengeschichten-folge-600-pra-astronautik-waren-die-aliens-schon-zu-besuch-auf-der-erde",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -44866,10 +44866,10 @@
       "title": "Wasser im Universum",
       "url": "https://sternengeschichten.podigee.io/601-sternengeschichten-folge-601-wasser-im-universum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -44941,9 +44941,9 @@
       "title": "Flackersterne und außerirdisches Leben",
       "url": "https://sternengeschichten.podigee.io/602-sternengeschichten-folge-602-flackersterne-und-ausserirdisches-leben",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -45015,9 +45015,9 @@
       "title": "Genesis und der Sternenstaub",
       "url": "https://sternengeschichten.podigee.io/603-sternengeschichten-folge-603-genesis-und-der-sternenstaub",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -45163,8 +45163,8 @@
       "title": "Astronomie im Loch - Beobachtungen am Taghimmel",
       "url": "https://sternengeschichten.podigee.io/605-sternengeschichten-folge-605-astronomie-im-loch-beobachtungen-am-taghimmel",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -45239,10 +45239,10 @@
       "title": "Der Meteorit von Orgeuil und das außerirdische Leben",
       "url": "https://sternengeschichten.podigee.io/606-sternengeschichten-folge-606-der-meteorit-von-orgeuil-und-das-ausserirdische-leben",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -45315,8 +45315,8 @@
       "url": "https://sternengeschichten.podigee.io/607-sternengeschichten-folge-607-die-mysteriosen-miyake-ereignisse",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -45540,8 +45540,8 @@
       "title": "Die blaue Murmel",
       "url": "https://sternengeschichten.podigee.io/610-sternengeschichten-folge-610-die-blaue-murmel",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -45613,9 +45613,9 @@
       "title": "Die Schuhmann-Resonanz - Esoterik trifft Planetologie",
       "url": "https://sternengeschichten.podigee.io/611-sternengeschichten-folge-611-die-schuhmann-resonanz-esoterik-trifft-planetologie",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -45843,10 +45843,10 @@
       "title": "Die Vela-Supernova",
       "url": "https://sternengeschichten.podigee.io/614-sternengeschichten-folge-614-die-vela-supernova",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -45960,6 +45960,10 @@
           "score": 0.665
         },
         {
+          "id": 715,
+          "score": 0.663
+        },
+        {
           "id": 417,
           "score": 0.662
         },
@@ -45982,10 +45986,6 @@
         {
           "id": 437,
           "score": 0.655
-        },
-        {
-          "id": 668,
-          "score": 0.648
         }
       ]
     },
@@ -45994,10 +45994,10 @@
       "title": "Verschwundene Sterne",
       "url": "https://sternengeschichten.podigee.io/616-sternengeschichten-folge-616-verschwundene-sterne",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -46074,8 +46074,8 @@
       "url": "https://sternengeschichten.podigee.io/617-sternengeschichten-folge-617-metriken-der-raumzeit",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -46151,8 +46151,8 @@
       "title": "Hypatia von Alexandria",
       "url": "https://sternengeschichten.podigee.io/618-sternengeschichten-folge-618-hypatia-von-alexandria",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -46302,10 +46302,10 @@
       "title": "Die Zone of Avoidance",
       "url": "https://sternengeschichten.podigee.io/620-sternengeschichten-folge-620-die-zone-of-avoidance",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -46380,8 +46380,8 @@
       "url": "https://sternengeschichten.podigee.io/621-sternengeschichten-folge-621-blaneten-die-um-schwarze-locher-kreisen",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -46453,8 +46453,8 @@
       "title": "Gisela Weiss - Österreichs erste Astronomin",
       "url": "https://sternengeschichten.podigee.io/622-sternengeschichten-folge-622-gisela-weiss-osterreichs-erste-astronomin",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -46677,9 +46677,9 @@
       "title": "Przybylskis Stern - Fabrik für exotische Elemente oder Alienmüllhalde?",
       "url": "https://sternengeschichten.podigee.io/625-sternengeschichten-folge-625-przybylskis-stern-fabrik-fur-exotische-elemente-oder-alienmullhalde",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -46753,8 +46753,8 @@
       "title": "Flammarions Holzschnitt und der Rand der Welt",
       "url": "https://sternengeschichten.podigee.io/626-sternengeschichten-folge-626-flammarions-holzschnitt-und-der-rand-der-welt",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -46829,10 +46829,10 @@
       "title": "Ursa Major III - die kleinste Galaxie (fast) ohne Sterne",
       "url": "https://sternengeschichten.podigee.io/627-sternengeschichten-folge-627-ursa-major-iii-die-kleinste-galaxie-fast-ohne-sterne",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -46904,8 +46904,8 @@
       "title": "Der Tod des Kometen Elenin",
       "url": "https://sternengeschichten.podigee.io/628-sternengeschichten-folge-628-der-tod-des-kometen-elenin",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -46978,8 +46978,8 @@
       "url": "https://sternengeschichten.podigee.io/629-sternengeschichten-folge-629-die-stromgren-sphare-und-die-ersten-sterne",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -47128,8 +47128,8 @@
       "url": "https://sternengeschichten.podigee.io/631-sternengeschichten-folge-631-himiko-der-grosse-blob-am-anfang-des-universums",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -47201,8 +47201,8 @@
       "title": "Galatea und die Ringe des Neptun",
       "url": "https://sternengeschichten.podigee.io/632-sternengeschichten-folge-632-galatea-und-die-ringe-des-neptun",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -47276,10 +47276,10 @@
       "title": "Die Millenium-Simulation",
       "url": "https://sternengeschichten.podigee.io/633-sternengeschichten-folge-633-die-millenium-simulation",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -47351,10 +47351,10 @@
       "title": "Die Säulen der Schöpfung",
       "url": "https://sternengeschichten.podigee.io/634-sternengeschichten-folge-634-die-saulen-der-schopfung",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -47426,8 +47426,8 @@
       "title": "Wie zerstört man einen Planeten?",
       "url": "https://sternengeschichten.podigee.io/635-sternengeschichten-folge-635-wie-zerstort-man-einen-planeten",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -47576,8 +47576,8 @@
       "title": "Eugene Parker und der Sonnenwind",
       "url": "https://sternengeschichten.podigee.io/637-sternengeschichten-folge-637-eugene-parker-und-der-sonnenwind",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -47622,6 +47622,10 @@
           "score": 0.539
         },
         {
+          "id": 715,
+          "score": 0.539
+        },
+        {
           "id": 680,
           "score": 0.538
         },
@@ -47640,10 +47644,6 @@
         {
           "id": 599,
           "score": 0.532
-        },
-        {
-          "id": 615,
-          "score": 0.531
         }
       ]
     },
@@ -47652,10 +47652,10 @@
       "title": "Geminga, der Pulsar voller Rätsel",
       "url": "https://sternengeschichten.podigee.io/638-sternengeschichten-folge-638-geminga-der-pulsar-voller-ratsel",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -47730,8 +47730,8 @@
       "title": "Wie berechnet man die Wahrscheinlichkeit für einen Asteroideneinschlag?",
       "url": "https://sternengeschichten.podigee.io/639-sternengeschichten-folge-639-wie-berechnet-man-die-wahrscheinlichkeit-fur-einen-asteroideneinschlag",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -47878,10 +47878,10 @@
       "title": "W44 - Die Supernova und das flüchtende schwarze Loch",
       "url": "https://sternengeschichten.podigee.io/641-sternengeschichten-folge-641-w44-die-supernova-und-das-fluchtende-schwarze-loch",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -47953,10 +47953,10 @@
       "title": "Sternentriebwerke und Astro-Engineering",
       "url": "https://sternengeschichten.podigee.io/642-sternengeschichten-folge-642-sternentriebwerke-und-astro-engineering",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -48030,8 +48030,8 @@
       "title": "Der Meteorit Neuschwanstein",
       "url": "https://sternengeschichten.podigee.io/643-sternengeschichten-folge-643-der-meteorit-neuschwanstein",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -48105,9 +48105,9 @@
       "title": "Formamid und der Ursprung des Lebens",
       "url": "https://sternengeschichten.podigee.io/644-sternengeschichten-folge-644-formamid-und-der-ursprung-des-lebens",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -48399,8 +48399,8 @@
       "url": "https://sternengeschichten.podigee.io/648-sternengeschichten-folge-648-das-oh-my-god-teilchen",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -48475,9 +48475,9 @@
       "title": "Der Finsternisflug der Concorde",
       "url": "https://sternengeschichten.podigee.io/649-sternengeschichten-folge-649-der-finsternisflug-der-concorde",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -48549,9 +48549,9 @@
       "title": "Albert Einstein, das CCD und die moderne Astrofotografie",
       "url": "https://sternengeschichten.podigee.io/650-sternengeschichten-folge-650-albert-einstein-das-ccd-und-die-moderne-astrofotografie",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -49004,10 +49004,10 @@
       "title": "Entropie, Zeit und der Anfang des Universums",
       "url": "https://sternengeschichten.podigee.io/656-sternengeschichten-folge-656-entropie-zeit-und-der-anfang-des-universums",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -49079,8 +49079,8 @@
       "title": "Der Asteroid Golevka",
       "url": "https://sternengeschichten.podigee.io/657-sternengeschichten-folge-657-der-asteroid-golevka",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -49272,6 +49272,10 @@
           "score": 0.579
         },
         {
+          "id": 715,
+          "score": 0.578
+        },
+        {
           "id": 442,
           "score": 0.575
         },
@@ -49293,10 +49297,6 @@
         },
         {
           "id": 512,
-          "score": 0.565
-        },
-        {
-          "id": 417,
           "score": 0.565
         }
       ]
@@ -49461,8 +49461,8 @@
       "title": "Ravioli im Weltall: Der Saturnmond Pan",
       "url": "https://sternengeschichten.podigee.io/662-sternengeschichten-folge-662-ravioli-im-weltall-der-saturnmond-pan",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -49536,9 +49536,9 @@
       "title": "Die Zerstörung von Chrysalis und die Ringe des Saturn",
       "url": "https://sternengeschichten.podigee.io/663-sternengeschichten-folge-663-die-zerstorung-von-chrysalis-und-die-ringe-des-saturn",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -49690,8 +49690,8 @@
       "title": "Der Meteorit von L'Aigle",
       "url": "https://sternengeschichten.podigee.io/665-sternengeschichten-folge-665-der-meteorit-von-l-aigle",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -49763,10 +49763,10 @@
       "title": "Die Achse des Bösen",
       "url": "https://sternengeschichten.podigee.io/666-sternengeschichten-folge-666-die-achse-des-bosen",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -49839,8 +49839,8 @@
       "url": "https://sternengeschichten.podigee.io/667-sternengeschichten-folge-667-die-hyaden",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -50064,8 +50064,8 @@
       "title": "Die Große Meteorprozession von 1913",
       "url": "https://sternengeschichten.podigee.io/670-sternengeschichten-folge-670-die-grosse-meteorprozession-von-1913",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -50137,9 +50137,9 @@
       "title": "Trojaner und UFOs im Sternbild Netz",
       "url": "https://sternengeschichten.podigee.io/671-sternengeschichten-folge-671-trojaner-und-ufos-im-sternbild-netz",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -50214,9 +50214,9 @@
       "title": "Der Zweck und die Geschichte des Countdowns",
       "url": "https://sternengeschichten.podigee.io/672-sternengeschichten-folge-672-der-zweck-und-die-geschichte-des-countdowns",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -50288,10 +50288,10 @@
       "title": "Das Problem der Roten Überriesen",
       "url": "https://sternengeschichten.podigee.io/673-sternengeschichten-folge-673-das-problem-der-roten-uberriesen",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -50363,9 +50363,9 @@
       "title": "Weltraumspiegel",
       "url": "https://sternengeschichten.podigee.io/674-sternengeschichten-folge-674-weltraumspiegel",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -50587,8 +50587,8 @@
       "title": "Der Asteroid Massalia und der Ursprung der Meteoriten",
       "url": "https://sternengeschichten.podigee.io/677-sternengeschichten-folge-677-der-asteroid-massalia-und-der-ursprung-der-meteoriten",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -50665,8 +50665,8 @@
       "url": "https://sternengeschichten.podigee.io/678-sternengeschichten-folge-678-die-quark-ara-im-fruhen-universum-und-die-entstehung-der-materie",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -50740,8 +50740,8 @@
       "title": "Angeline Stickney und ihr Krater",
       "url": "https://sternengeschichten.podigee.io/679-sternengeschichten-folge-679-angeline-stickney-und-ihr-krater",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -50815,8 +50815,8 @@
       "title": "Die Astronomie der Rauhnächte",
       "url": "https://sternengeschichten.podigee.io/680-sternengeschichten-folge-680-die-astronomie-der-rauhnachte",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -50861,6 +50861,10 @@
           "score": 0.763
         },
         {
+          "id": 715,
+          "score": 0.76
+        },
+        {
           "id": 394,
           "score": 0.755
         },
@@ -50878,10 +50882,6 @@
         },
         {
           "id": 591,
-          "score": 0.748
-        },
-        {
-          "id": 341,
           "score": 0.748
         }
       ]
@@ -51115,9 +51115,9 @@
       "title": "Die Geschichte des Tierkreis",
       "url": "https://sternengeschichten.podigee.io/684-sternengeschichten-folge-684-die-geschichte-des-tierkreis",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -51266,8 +51266,8 @@
       "url": "https://sternengeschichten.podigee.io/686-sternengeschichten-folge-686-der-asymptotische-riesenast",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -51344,8 +51344,8 @@
       "url": "https://sternengeschichten.podigee.io/687-sternengeschichten-folge-687-zwerggalaxien-und-ihre-probleme",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -51945,10 +51945,10 @@
       "title": "Red Nuggets - Galaktische Fossilien aus dem frühen Universum",
       "url": "https://sternengeschichten.podigee.io/695-sternengeschichten-folge-695-red-nuggets-galaktische-fossilien-aus-dem-fruhen-universum",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -52097,8 +52097,8 @@
       "url": "https://sternengeschichten.podigee.io/697-sternengeschichten-folge-697-das-uratom-und-die-entstehung-des-universums",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -52173,8 +52173,8 @@
       "title": "Beta Cephei und die Schwingung des Eisens",
       "url": "https://sternengeschichten.podigee.io/698-sternengeschichten-folge-698-beta-cephei-und-die-schwingung-des-eisens",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -52324,10 +52324,10 @@
       "title": "TOI-700 d",
       "url": "https://sternengeschichten.podigee.io/700-sternengeschichten-folge-700-toi-700-d",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [],
@@ -52399,8 +52399,8 @@
       "title": "Planetenbedeckung",
       "url": "https://sternengeschichten.podigee.io/701-sternengeschichten-folge-701-planetenbedeckung",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -52474,10 +52474,10 @@
       "title": "Der Forbush-Effekt",
       "url": "https://sternengeschichten.podigee.io/702-sternengeschichten-folge-702-der-forbush-effekt",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -52552,10 +52552,10 @@
       "title": "Das Green Bank Treffen, Außerirdische und der Orden des Delfins",
       "url": "https://sternengeschichten.podigee.io/703-sternengeschichten-folge-703-das-green-bank-treffen-ausserirdische-und-der-orden-des-delfins",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -52630,9 +52630,9 @@
       "title": "Der Asteroid Eros",
       "url": "https://sternengeschichten.podigee.io/704-sternengeschichten-folge-704-der-asteroid-eros",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -52783,8 +52783,8 @@
       "url": "https://sternengeschichten.podigee.io/706-sternengeschichten-folge-706-die-planetenlucke-und-schrumpfende-himmelskorper",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -52858,9 +52858,9 @@
       "title": "Das Asymptotische Schweigen der Singularität",
       "url": "https://sternengeschichten.podigee.io/707-sternengeschichten-folge-707-das-asymptotische-schweigen-der-singularitat",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -52934,8 +52934,8 @@
       "title": "Dunkle Kometen",
       "url": "https://sternengeschichten.podigee.io/708-sternengeschichten-folge-708-dunkle-kometen",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -53082,10 +53082,10 @@
       "title": "Void-Galaxien - ein Licht in der Dunkelheit",
       "url": "https://sternengeschichten.podigee.io/710-sternengeschichten-folge-710-void-galaxien-ein-licht-in-der-dunkelheit",
       "tags": [
-        "Sonnensystem",
-        "Kosmologie",
+        "Galaxien",
         "Planeten",
-        "Galaxien"
+        "Sonnensystem",
+        "Kosmologie"
       ],
       "has_transcript": false,
       "references": [
@@ -53234,9 +53234,9 @@
       "title": "Das Röntgenrätsel um Gamma Cassiopeiae",
       "url": "https://sternengeschichten.podigee.io/712-sternengeschichten-folge-712-das-rontgenratsel-um-gamma-cassiopeiae",
       "tags": [
-        "Sonnensystem",
         "Planeten",
-        "Kosmologie"
+        "Kosmologie",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -53383,8 +53383,8 @@
       "url": "https://sternengeschichten.podigee.io/714-sternengeschichten-folge-714-der-dipole-repeller-und-die-abstossende-region-im-universum",
       "tags": [
         "Planeten",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [
@@ -53451,6 +53451,82 @@
         {
           "id": 548,
           "score": 0.622
+        }
+      ]
+    },
+    {
+      "id": 715,
+      "title": "Astronomie vor Gericht: Streit um die kalte Sonne",
+      "url": "https://sternengeschichten.podigee.io/715-sternengeschichten-folge-715-astronomie-vor-gericht-streit-um-die-kalte-sonne",
+      "tags": [
+        "Planeten",
+        "Kosmologie",
+        "Galaxien"
+      ],
+      "has_transcript": false,
+      "references": [
+        333
+      ],
+      "topic_references": [
+        {
+          "id": 680,
+          "score": 0.76
+        },
+        {
+          "id": 605,
+          "score": 0.739
+        },
+        {
+          "id": 431,
+          "score": 0.738
+        },
+        {
+          "id": 517,
+          "score": 0.729
+        },
+        {
+          "id": 10,
+          "score": 0.72
+        },
+        {
+          "id": 317,
+          "score": 0.707
+        },
+        {
+          "id": 18,
+          "score": 0.702
+        },
+        {
+          "id": 400,
+          "score": 0.688
+        },
+        {
+          "id": 316,
+          "score": 0.688
+        },
+        {
+          "id": 38,
+          "score": 0.683
+        },
+        {
+          "id": 437,
+          "score": 0.682
+        },
+        {
+          "id": 255,
+          "score": 0.68
+        },
+        {
+          "id": 341,
+          "score": 0.677
+        },
+        {
+          "id": 507,
+          "score": 0.671
+        },
+        {
+          "id": 133,
+          "score": 0.669
         }
       ]
     },
@@ -53605,8 +53681,8 @@
       "title": "Sternengeschichten Spezial Juli 2026",
       "url": "https://sternengeschichten.podigee.io/50020-sternengeschichten-spezial-juli-2026",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -53680,8 +53756,8 @@
       "title": "Sternengeschichten Spezial Juni 2026",
       "url": "https://sternengeschichten.podigee.io/50019-sternengeschichten-spezial-juni-2026",
       "tags": [
-        "Sonnensystem",
-        "Planeten"
+        "Planeten",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [
@@ -53755,8 +53831,8 @@
       "title": "Sternengeschichten Spezial Mai 2026",
       "url": "https://sternengeschichten.podigee.io/50018-sternengeschichten-spezial-mai-2026",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
@@ -53903,8 +53979,8 @@
       "url": "https://sternengeschichten.podigee.io/50016-sternengeschichten-spezial-marz-2026",
       "tags": [
         "Sonnensystem",
-        "Galaxien",
-        "Kosmologie"
+        "Kosmologie",
+        "Galaxien"
       ],
       "has_transcript": false,
       "references": [],
@@ -53976,8 +54052,8 @@
       "title": "Sternengeschichten Spezial Februar 2026",
       "url": "https://sternengeschichten.podigee.io/50015-sternengeschichten-spezial-februar-2026",
       "tags": [
-        "Sonnensystem",
-        "Sterne"
+        "Sterne",
+        "Sonnensystem"
       ],
       "has_transcript": false,
       "references": [],
